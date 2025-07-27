@@ -11,7 +11,6 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: subosito/flutter-action@v1
-      - run: bash ci/web-build
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
          baseHref: /olive-june-gel-collection/
