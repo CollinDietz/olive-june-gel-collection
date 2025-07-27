@@ -62,7 +62,7 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(12),
                           child: Image.asset(
-                            AssetImage(images[index]).assetName,
+                            images[index],
                             fit: BoxFit.contain,
                             width: double.infinity,
                           ),
@@ -102,7 +102,7 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
                               ),
                               child: ClipOval(
                                 child: Image.asset(
-                                  AssetImage(images[index]).assetName,
+                                  images[index],
                                   fit: BoxFit.fill,
                                 ),
                               ),
