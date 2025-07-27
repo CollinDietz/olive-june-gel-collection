@@ -40,8 +40,7 @@ jobs:
 
       - name: 😭 Move assets up a level
         run: |
-            mv build/web/assets/assets/data build/web/assets/
-            mv build/web/assets/assets/image build/web/assets/
+            for asset in $(yq '.flutter.assets[]' pubspec.yaml); do mv build/web/assets/"$asset" build/web/assets/; done
 
       - name: ⚙️ Setup GitHub Pages
         uses: actions/configure-pages@v5
