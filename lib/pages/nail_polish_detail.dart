@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:olive_june_gel_collection/models/nail_polish.dart';
-import 'package:olive_june_gel_collection/platform_aware_asset_image.dart';
 
 class NailPolishDetailPage extends StatefulWidget {
   final NailPolish polish;
@@ -62,7 +61,11 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(12),
-                          child: PlatformAwareAssetImage(images[index]),
+                          child: Image(
+                            image: AssetImage(images[index]),
+                            fit: BoxFit.contain,
+                            width: double.infinity,
+                          ),
                         ),
                       ),
                     ),
@@ -98,7 +101,10 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
                                 ),
                               ),
                               child: ClipOval(
-                                child: PlatformAwareAssetImage(images[index]),
+                                child: Image(
+                                  image: AssetImage(images[index]),
+                                  fit: BoxFit.fill,
+                                ),
                               ),
                             ),
                           );
