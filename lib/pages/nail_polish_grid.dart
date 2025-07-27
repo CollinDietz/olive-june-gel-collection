@@ -42,7 +42,7 @@ class NailPolishGridPage extends StatelessWidget {
                     children: [
                       Expanded(
                         child: Image.asset(
-                          polish.images[0],
+                          AssetImage(polish.images[0]).assetName,
                           fit: BoxFit.cover,
                         ),
                       ),
