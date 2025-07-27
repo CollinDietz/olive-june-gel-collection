@@ -38,6 +38,10 @@ jobs:
       - name: 🛠️ Build web release
         run: flutter build web --release --base-href "/olive-june-gel-collection/"
 
+      - name: 😭 Move assets up a level
+        run: |
+            for asset in $(yq '.flutter.assets[]' pubspec.yaml); do mv build/web/assets/"$asset" build/web/assets/; done
+
       - name: ⚙️ Setup GitHub Pages
         uses: actions/configure-pages@v5
 
