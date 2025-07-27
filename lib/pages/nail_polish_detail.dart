@@ -33,109 +33,116 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
   Widget build(BuildContext context) {
     final polish = widget.polish;
     final images = polish.images;
+    final screenWidth = MediaQuery.of(context).size.width;
+
+    final isMobile = screenWidth < 600;
+
+    final imageCarousel = Column(
+      children: [
+        SizedBox(
+          height: 300,
+          child: PageView.builder(
+            controller: _pageController,
+            itemCount: images.length,
+            onPageChanged: (index) {
+              setState(() {
+                _currentIndex = index;
+              });
+            },
+            itemBuilder: (_, index) => Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(12),
+                child: Image.asset(
+                  images[index],
+                  fit: BoxFit.contain,
+                  width: double.infinity,
+                ),
+              ),
+            ),
+          ),
+        ),
+        const SizedBox(height: 10),
+        Center(
+          child: SizedBox(
+            height: 80,
+            child: ListView.builder(
+              scrollDirection: Axis.horizontal,
+              itemCount: images.length,
+              itemBuilder: (_, index) {
+                final isSelected = index == _currentIndex;
+                return GestureDetector(
+                  onTap: () {
+                    _pageController.animateToPage(
+                      index,
+                      duration: const Duration(milliseconds: 300),
+                      curve: Curves.easeInOut,
+                    );
+                  },
+                  child: Container(
+                    margin: const EdgeInsets.symmetric(horizontal: 6),
+                    padding: EdgeInsets.all(isSelected ? 2 : 0),
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                      border: Border.all(
+                        color: isSelected ? Colors.pink : Colors.grey.shade300,
+                        width: 2,
+                      ),
+                    ),
+                    child: ClipOval(
+                      child: Image.asset(
+                        images[index],
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
+          ),
+        ),
+      ],
+    );
+
+    final description = Padding(
+      padding: const EdgeInsets.all(16.0),
+      child: Text(
+        polish.description ?? 'No description available.',
+        style: const TextStyle(fontSize: 16),
+      ),
+    );
 
     return Scaffold(
-        appBar: AppBar(title: Text(polish.name)),
-        body: SizedBox.expand(
-            child: Row(
-          children: [
-            const Expanded(
-              flex: 1,
-              child: SizedBox(),
-            ),
-            Expanded(
-              flex: 2,
-              child: Column(
+      appBar: AppBar(title: Text(polish.name)),
+      body: SingleChildScrollView(
+        child: isMobile
+            ? Column(
                 children: [
-                  SizedBox(
-                    height: 450, // Adjust this as needed (e.g. 250–350)
-                    child: PageView.builder(
-                      controller: _pageController,
-                      itemCount: images.length,
-                      onPageChanged: (index) {
-                        setState(() {
-                          _currentIndex = index;
-                        });
-                      },
-                      itemBuilder: (_, index) => Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 12),
-                        child: ClipRRect(
-                          borderRadius: BorderRadius.circular(12),
-                          child: Image(
-                            image: AssetImage(images[index]),
-                            fit: BoxFit.contain,
-                            width: double.infinity,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                  const SizedBox(height: 10),
-                  Center(
-                    child: SizedBox(
-                      height: 80,
-                      child: ListView.builder(
-                        scrollDirection: Axis.horizontal,
-                        shrinkWrap: true,
-                        itemCount: images.length,
-                        itemBuilder: (_, index) {
-                          final isSelected = index == _currentIndex;
-                          return GestureDetector(
-                            onTap: () {
-                              _pageController.animateToPage(
-                                index,
-                                duration: Duration(milliseconds: 300),
-                                curve: Curves.easeInOut,
-                              );
-                            },
-                            child: Container(
-                              margin: EdgeInsets.symmetric(horizontal: 6),
-                              padding: EdgeInsets.all(isSelected ? 2 : 0),
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                                border: Border.all(
-                                  color: isSelected
-                                      ? Colors.pink
-                                      : Colors.grey.shade300,
-                                  width: 2,
-                                ),
-                              ),
-                              child: ClipOval(
-                                child: Image(
-                                  image: AssetImage(images[index]),
-                                  fit: BoxFit.fill,
-                                ),
-                              ),
-                            ),
-                          );
-                        },
-                      ),
-                    ),
-                  ),
+                  imageCarousel,
+                  description,
                 ],
+              )
+            : Padding(
+                padding: const EdgeInsets.all(24),
+                child: Row(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    const Expanded(flex: 1, child: const SizedBox()),
+                    Expanded(flex: 3, child: imageCarousel),
+                    Expanded(
+                        flex: 2,
+                        child: Column(
+                          children: [
+                            const SizedBox(height: 20),
+                            description,
+                            const SizedBox(height: 20),
+                          ],
+                        )),
+                    const Expanded(flex: 1, child: const SizedBox()),
+                  ],
+                ),
               ),
-            ),
-            Expanded(
-              flex: 1,
-              child: Column(
-                children: [
-                  const SizedBox(height: 20),
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 16.0),
-                    child: Text(
-                      polish.description ?? 'No description available.',
-                      style: TextStyle(fontSize: 16),
-                    ),
-                  ),
-                  const SizedBox(height: 40),
-                ],
-              ),
-            ),
-            const Expanded(
-              flex: 1,
-              child: SizedBox(),
-            ),
-          ],
-        )));
+      ),
+    );
   }
 }
