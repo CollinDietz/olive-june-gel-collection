@@ -61,8 +61,8 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
                         padding: const EdgeInsets.symmetric(horizontal: 12),
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(12),
-                          child: Image.asset(
-                            images[index],
+                          child: Image(
+                            image: AssetImage(images[index]),
                             fit: BoxFit.contain,
                             width: double.infinity,
                           ),
@@ -101,8 +101,8 @@ class _NailPolishDetailPageState extends State<NailPolishDetailPage> {
                                 ),
                               ),
                               child: ClipOval(
-                                child: Image.asset(
-                                  images[index],
+                                child: Image(
+                                  image: AssetImage(images[index]),
                                   fit: BoxFit.fill,
                                 ),
                               ),
