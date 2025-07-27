@@ -1,19 +1,57 @@
-name: deploy
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
+
+  workflow_dispatch:
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: subosito/flutter-action@v2
+      - name: ⬇️ Checkout
+        uses: actions/checkout@v4
+
+      - name: 🧰 Setup Flutter
+        uses: subosito/flutter-action@v2
         with:
-          channel: stable
-          flutter-version: 3.24.3
-      - uses: bluefireteam/flutter-gh-pages@v9
+          flutter-version: "3.24.3"
+
+      - name: 📦 Install dependencies
+        run: flutter pub get
+
+      - name: 🛠️ Build web release
+        run: flutter build web --release --base-href "/olive-june-gel-collection/"
+
+      - name: 😭 Move assets up a level
+        run: |
+            mv build/web/assets/assets build/web/assets_temp
+            rm -rf build/web/assets
+            mv build/web/assets_temp build/web/assets
+
+      - name: ⚙️ Setup GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: 📤 Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-         baseHref: /olive-june-gel-collection/
+          path: build/web
+
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
