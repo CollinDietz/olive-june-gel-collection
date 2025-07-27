@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:olive_june_gel_collection/platform_aware_asset_image.dart';
 import '../models/nail_polish.dart';
 import '../data_loader.dart';
 import 'nail_polish_detail.dart';
@@ -41,10 +42,7 @@ class NailPolishGridPage extends StatelessWidget {
                   child: Column(
                     children: [
                       Expanded(
-                        child: Image(
-                          image: AssetImage(polish.images[0]),
-                          fit: BoxFit.cover,
-                        ),
+                        child: PlatformAwareAssetImage(polish.images[0]),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(4.0),
