@@ -1,17 +1,44 @@
 class NailPolish {
+  final String variantId;
   final String name;
+  final String price;
+  final String url;
+  final bool isNew;
+  final String color;
+  final String colorKind;
+  final String undertone;
+  final String season;
+  final String productId;
   final String description;
   final List<String> images;
 
   NailPolish({
+    required this.variantId,
     required this.name,
+    required this.price,
+    required this.url,
+    required this.isNew,
+    required this.color,
+    required this.colorKind,
+    required this.undertone,
+    required this.season,
+    required this.productId,
     required this.description,
     required this.images,
   });
 
   factory NailPolish.fromJson(Map<String, dynamic> json) {
     return NailPolish(
-      name: json['name'],
+      variantId: json['variantId'] ?? '',
+      name: json['name'] ?? '',
+      price: json['price'] ?? '',
+      url: json['url'] ?? '',
+      isNew: json['isNew'] ?? false,
+      color: json['color'] ?? '',
+      colorKind: json['color_kind'] ?? '',
+      undertone: json['undertone'] ?? '',
+      season: json['season'] ?? '',
+      productId: json['productId'] ?? '',
       description: json['description'] ?? '',
       images: List<String>.from(json['images'] ?? []),
     );
