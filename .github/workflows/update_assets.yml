@@ -1,10 +1,10 @@
-name: Update Assets from Olive June Scrapper
+name: Update Assets from Olive June Scraper
 
 on:
-  workflow_dispatch:  # Allows manual trigger in GitHub Actions UI
+  workflow_dispatch:
 
 permissions:
-  contents: write  # Needed to push commits
+  contents: write
 
 jobs:
   update-assets:
@@ -14,42 +14,27 @@ jobs:
       - name: Checkout this repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # So we can push changes later
+          fetch-depth: 0
 
-      - name: Get latest release info
-        id: get_release
-        uses: actions/github-script@v7
-        with:
-          script: |
-            const response = await github.rest.repos.getLatestRelease({
-              owner: 'CollinDietz',
-              repo: 'olive-june-gel-collection-scraper'
-            });
-            const asset = response.data.assets.find(a => a.name.endsWith('.tar') || a.name.endsWith('.tar.gz'));
-            if (!asset) {
-              throw new Error('No .tar or .tar.gz asset found in latest release.');
-            }
-            core.setOutput('asset_url', asset.browser_download_url);
-            core.setOutput('release_tag', response.data.tag_name);
-
-      - name: Download latest release asset
+      - name: Get latest release tag
+        id: get_tag
         run: |
-            gh release download --repo CollinDietz/olive-june-gel-collection-scraper \
+          TAG=$(gh release list --repo CollinDietz/olive-june-gel-collection-scraper --limit 1 --json tagName -q '.[0].tagName')
+          echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+      - name: Download latest release tar
+        run: |
+          mkdir -p tmp
+          gh release download --repo CollinDietz/olive-june-gel-collection-scraper \
             --pattern "*.tar.gz" \
-            --output assets.tar.gz
+            --output tmp/assets.tar.gz
         env:
-            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract assets
         run: |
-          mkdir -p extracted
-          tar -xzf assets.tar.gz -C extracted
-
-      - name: Replace assets folder
-        run: |
           rm -rf assets
-          mv extracted/assets ./ || mv extracted/* ./
-
+          tar -xzf tmp/assets.tar.gz
 
       - name: Commit and push changes
         env:
@@ -59,5 +44,11 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add assets
-          git commit -m "Update assets from olive-june-gel-collection-scraper ${{ steps.get_release.outputs.release_tag }}" || echo "No changes to commit."
+          git commit -m "Update assets from olive-june-gel-collection-scraper ${{ steps.get_tag.outputs.tag }}" || echo "No changes to commit."
           git push origin HEAD:${{ github.ref_name }}
+
+      - name: Trigger deploy workflow
+        env:
+          GH_TOKEN: ${{ secrets.WORKFLOW_TOKEN }}
+        run: |
+          gh workflow run deploy.yml --ref main
