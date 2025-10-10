@@ -48,8 +48,8 @@ jobs:
       - name: Replace assets folder
         run: |
           rm -rf assets
-          mkdir -p assets
-          mv extracted/* assets/
+          mv extracted/assets ./ || mv extracted/* ./
+
 
       - name: Commit and push changes
         env:
