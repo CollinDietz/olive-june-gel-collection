@@ -32,9 +32,13 @@ jobs:
             core.setOutput('asset_url', asset.browser_download_url);
             core.setOutput('release_tag', response.data.tag_name);
 
-      - name: Download tar asset
+      - name: Download latest release asset
         run: |
-          curl -L "${{ steps.get_release.outputs.asset_url }}" -o assets.tar.gz
+            gh release download --repo CollinDietz/olive-june-gel-collection-scraper \
+            --pattern "*.tar.gz" \
+            --output assets.tar.gz
+        env:
+            GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Extract assets
         run: |
