@@ -31,24 +31,26 @@ class _ImageCarouselState extends State<ImageCarousel> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        SizedBox(
-          height: 300,
-          child: PageView.builder(
-            controller: _pageController,
-            itemCount: widget.nailPolish.images.length,
-            onPageChanged: (index) {
-              setState(() {
-                _currentIndex = index;
-              });
-            },
-            itemBuilder: (_, index) => Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 12),
-              child: ClipRRect(
-                borderRadius: BorderRadius.circular(12),
-                child: Image.asset(
-                  widget.nailPolish.images[index],
-                  fit: BoxFit.contain,
-                  width: double.infinity,
+        Center(
+          child: SizedBox(
+            height: 300,
+            child: PageView.builder(
+              controller: _pageController,
+              itemCount: widget.nailPolish.images.length,
+              onPageChanged: (index) {
+                setState(() {
+                  _currentIndex = index;
+                });
+              },
+              itemBuilder: (_, index) => Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 12),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(12),
+                  child: Image.asset(
+                    widget.nailPolish.images[index],
+                    fit: BoxFit.contain,
+                    width: double.infinity,
+                  ),
                 ),
               ),
             ),
