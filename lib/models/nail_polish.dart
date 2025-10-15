@@ -7,6 +7,8 @@ class NailPolish {
   final String color;
   final String colorKind;
   final String undertone;
+  final String finishType;
+  final String colorDescription;
   final String season;
   final String productId;
   final String description;
@@ -21,6 +23,8 @@ class NailPolish {
     required this.color,
     required this.colorKind,
     required this.undertone,
+    required this.finishType,
+    required this.colorDescription,
     required this.season,
     required this.productId,
     required this.description,
@@ -37,6 +41,8 @@ class NailPolish {
       color: json['color'] ?? '',
       colorKind: json['color_kind'] ?? '',
       undertone: json['undertone'] ?? '',
+      finishType: json['finishType'] ?? '',
+      colorDescription: json['colorDescription'] ?? '',
       season: json['season'] ?? '',
       productId: json['productId'] ?? '',
       description: json['description'] ?? '',
