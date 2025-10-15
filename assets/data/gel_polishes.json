@@ -1,37 +1,18 @@
 [
   {
-    "variantId": "43645275013162",
-    "name": "Boysenberry Glass",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/boysenberry-glass-gel",
-    "isNew": true,
-    "color": "Pinks",
-    "color_kind": "Jelly",
-    "undertone": "Cool",
-    "season": "Fall",
-    "productId": "7706143522858",
-    "description": "A sheer berry jelly shade inspired by winter fruit jam and oh-so-sweet.\n“This shade is what layering dreams are made of.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/boysenberry-glass_slide_0.png",
-      "assets/images/boysenberry-glass_slide_1.png",
-      "assets/images/boysenberry-glass_slide_2.png",
-      "assets/images/boysenberry-glass_slide_3.png",
-      "assets/images/boysenberry-glass_slide_4.png",
-      "assets/images/boysenberry-glass_slide_5.png",
-      "assets/images/boysenberry-glass_slide_6.png"
-    ]
-  },
-  {
+    "id": "on-the-promenade-gel",
     "variantId": "43645269475370",
     "name": "On the Promenade",
     "price": "$12",
     "url": "https://oliveandjune.com/collections/gel-polish/products/on-the-promenade-gel",
-    "isNew": true,
+    "isNew": false,
     "color": "Purples",
     "color_kind": "Iridescent",
     "undertone": "Warm",
     "season": "Fall",
     "productId": "7706139557930",
+    "colorDescription": "shimmery mulberry purple",
+    "finishType": "Iridescent Opaque",
     "description": "A shimmering mulberry purple that always struts its stuff.\n“One of your favorite winter colors, made even more magical with shimmer.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/on-the-promenade_slide_0.png",
@@ -41,41 +22,44 @@
       "assets/images/on-the-promenade_slide_4.png",
       "assets/images/on-the-promenade_slide_5.png",
       "assets/images/on-the-promenade_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
     ]
   },
   {
-    "variantId": "43645237755946",
-    "name": "JG",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/jg-gel",
-    "isNew": true,
-    "color": "Pinks",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "Fall",
-    "productId": "7706132938794",
-    "description": "A rich berry for a color-forward, charismatic mani.\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/jg_slide_0.png",
-      "assets/images/jg_slide_1.png",
-      "assets/images/jg_slide_2.png",
-      "assets/images/jg_slide_3.png",
-      "assets/images/jg_slide_4.png",
-      "assets/images/jg_slide_5.png",
-      "assets/images/jg_slide_6.png"
-    ]
-  },
-  {
+    "id": "cn-gel",
     "variantId": "43645212721194",
     "name": "CN",
     "price": "$12",
     "url": "https://oliveandjune.com/collections/gel-polish/products/cn-gel",
-    "isNew": true,
+    "isNew": false,
     "color": "Neutrals",
     "color_kind": "Creme",
     "undertone": "Cool",
     "season": "Fall",
     "productId": "7706118324266",
+    "colorDescription": "dark chocolate brown",
+    "finishType": "Creme Opaque",
     "description": "A silky sable brown.\n\"I'm a milk chocolate person, but this ultra dark chocolate mani is my favorite indulgence.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/cn_slide_0.png",
@@ -85,19 +69,138 @@
       "assets/images/cn_slide_4.png",
       "assets/images/cn_slide_5.png",
       "assets/images/cn_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
     ]
   },
   {
+    "id": "boysenberry-glass-gel",
+    "variantId": "43645275013162",
+    "name": "Boysenberry Glass",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/boysenberry-glass-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Jelly",
+    "undertone": "Cool",
+    "season": "Fall",
+    "productId": "7706143522858",
+    "colorDescription": "sheer berry jelly",
+    "finishType": "Jelly Jelly",
+    "description": "A sheer berry jelly shade inspired by winter fruit jam and oh-so-sweet.\n“This shade is what layering dreams are made of.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/boysenberry-glass_slide_0.png",
+      "assets/images/boysenberry-glass_slide_1.png",
+      "assets/images/boysenberry-glass_slide_2.png",
+      "assets/images/boysenberry-glass_slide_3.png",
+      "assets/images/boysenberry-glass_slide_4.png",
+      "assets/images/boysenberry-glass_slide_5.png",
+      "assets/images/boysenberry-glass_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
+    ]
+  },
+  {
+    "id": "jg-gel",
+    "variantId": "43645237755946",
+    "name": "JG",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/jg-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "Fall",
+    "productId": "7706132938794",
+    "colorDescription": "bright raspberry red",
+    "finishType": "Creme Opaque",
+    "description": "A rich berry for a color-forward, charismatic mani.\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/jg_slide_0.png",
+      "assets/images/jg_slide_1.png",
+      "assets/images/jg_slide_2.png",
+      "assets/images/jg_slide_3.png",
+      "assets/images/jg_slide_4.png",
+      "assets/images/jg_slide_5.png",
+      "assets/images/jg_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
+    ]
+  },
+  {
+    "id": "sd-gel",
     "variantId": "43645221699626",
     "name": "SD",
     "price": "$12",
     "url": "https://oliveandjune.com/collections/gel-polish/products/sd-gel",
-    "isNew": true,
+    "isNew": false,
     "color": "Purples",
     "color_kind": "Creme",
     "undertone": "Cool",
     "season": "Fall",
     "productId": "7706126450730",
+    "colorDescription": "ultradark plum",
+    "finishType": "Creme Opaque",
     "description": "An edgy, sophisticated plum.\n\n\"SD is named after skincare genius Shani Darden, who has been saving my face for years. Taking a moment to take care of yourself is key and her facials are my biggest treatment obsession. She loves a chic, dark mani so this shade felt like the perfect fit.“ XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/sd_slide_0.png",
@@ -107,9 +210,32 @@
       "assets/images/sd_slide_4.png",
       "assets/images/sd_slide_5.png",
       "assets/images/sd_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
     ]
   },
   {
+    "id": "slate-gel",
     "variantId": "43529555116074",
     "name": "Slate",
     "price": "$12",
@@ -120,6 +246,8 @@
     "undertone": "Cool",
     "season": "Fall",
     "productId": "7698010406954",
+    "colorDescription": "cool slate blue",
+    "finishType": "Creme Opaque",
     "description": "A midtone slate blue that’s effortlessly cool and calming.\n“This blue with a touch of grey is peak chic.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/slate_slide_0.png",
@@ -129,9 +257,40 @@
       "assets/images/slate_slide_4.png",
       "assets/images/slate_slide_5.png",
       "assets/images/slate_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "slate-gel",
+        "color": "#888ca1"
+      },
+      {
+        "id": "fawn-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
     ]
   },
   {
+    "id": "fawn-gel",
     "variantId": "43529557278762",
     "name": "Fawn",
     "price": "$12",
@@ -142,6 +301,8 @@
     "undertone": "Warm",
     "season": "Fall",
     "productId": "7698012831786",
+    "colorDescription": "minky brown neutral",
+    "finishType": "Creme Opaque",
     "description": "A minky brown neutral that’s impossible not to compliment.\n\n“It’s not quite brown, it’s a little grey, and a little purple, but it’s 100% a perfect fall neutral.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/fawn_slide_0.png",
@@ -151,9 +312,40 @@
       "assets/images/fawn_slide_4.png",
       "assets/images/fawn_slide_5.png",
       "assets/images/fawn_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "slate-gel",
+        "color": "#888ca1"
+      },
+      {
+        "id": "fawn-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "on-the-promenade-gel",
+        "color": "#988095"
+      },
+      {
+        "id": "cn-gel",
+        "color": "#817978"
+      },
+      {
+        "id": "boysenberry-glass-gel",
+        "color": "#dba6a4"
+      },
+      {
+        "id": "jg-gel",
+        "color": "#cd7086"
+      },
+      {
+        "id": "sd-gel",
+        "color": "#71657b"
+      }
     ]
   },
   {
+    "id": "covet-gel",
     "variantId": "43072994770986",
     "name": "Covet",
     "price": "$12",
@@ -164,6 +356,8 @@
     "undertone": "Cool",
     "season": "Fall",
     "productId": "7656897904682",
+    "colorDescription": "cool dark plum",
+    "finishType": "Creme Opaque",
     "description": "A cool dark plum that you’ll want to wear again and again.\n\n“My dark mani happy place is this almost-black deep plum. So chic.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/covet_slide_0.png",
@@ -173,9 +367,36 @@
       "assets/images/covet_slide_4.png",
       "assets/images/covet_slide_5.png",
       "assets/images/covet_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "covet-gel",
+        "color": "#5d4550"
+      },
+      {
+        "id": "goal-getter-gel",
+        "color": "#553334"
+      },
+      {
+        "id": "still-life-of-flowers-gel",
+        "color": "#83a099"
+      },
+      {
+        "id": "aw-gel",
+        "color": "#b09f98"
+      },
+      {
+        "id": "dream-job-gel",
+        "color": "#e5cbc6"
+      },
+      {
+        "id": "sculpture-wing-gel",
+        "color": "#f0e3e4"
+      }
     ]
   },
   {
+    "id": "goal-getter-gel",
     "variantId": "43072993034282",
     "name": "Goal Getter",
     "price": "$12",
@@ -186,6 +407,8 @@
     "undertone": "Warm",
     "season": "Fall",
     "productId": "7656897183786",
+    "colorDescription": "chocolatey neutral shimmer",
+    "finishType": "Iridescent Opaque",
     "description": "A chocolatey neutral with subtle golden brown shimmer that always gets it done.\n\n“How do we make your favorite fall shades even more perfect? Add a little shimmer!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/goal-getter_slide_0.png",
@@ -195,9 +418,36 @@
       "assets/images/goal-getter_slide_4.png",
       "assets/images/goal-getter_slide_5.png",
       "assets/images/goal-getter_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "covet-gel",
+        "color": "#5d4550"
+      },
+      {
+        "id": "goal-getter-gel",
+        "color": "#553334"
+      },
+      {
+        "id": "still-life-of-flowers-gel",
+        "color": "#83a099"
+      },
+      {
+        "id": "aw-gel",
+        "color": "#b09f98"
+      },
+      {
+        "id": "dream-job-gel",
+        "color": "#e5cbc6"
+      },
+      {
+        "id": "sculpture-wing-gel",
+        "color": "#f0e3e4"
+      }
     ]
   },
   {
+    "id": "still-life-of-flowers-gel",
     "variantId": "43072989757482",
     "name": "Still Life of Flowers",
     "price": "$12",
@@ -208,6 +458,8 @@
     "undertone": "Cool",
     "season": "Fall",
     "productId": "7656895807530",
+    "colorDescription": "cool mossy green",
+    "finishType": "Creme Opaque",
     "description": "A cool mossy green that’s in a genre all on its own.\n\n“If team green has one member, it’s me. This shade was a must the moment we made it.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/still-life-of-flowers_slide_0.png",
@@ -217,9 +469,36 @@
       "assets/images/still-life-of-flowers_slide_4.png",
       "assets/images/still-life-of-flowers_slide_5.png",
       "assets/images/still-life-of-flowers_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "covet-gel",
+        "color": "#5d4550"
+      },
+      {
+        "id": "goal-getter-gel",
+        "color": "#553334"
+      },
+      {
+        "id": "still-life-of-flowers-gel",
+        "color": "#83a099"
+      },
+      {
+        "id": "aw-gel",
+        "color": "#b09f98"
+      },
+      {
+        "id": "dream-job-gel",
+        "color": "#e5cbc6"
+      },
+      {
+        "id": "sculpture-wing-gel",
+        "color": "#f0e3e4"
+      }
     ]
   },
   {
+    "id": "aw-gel",
     "variantId": "43072990347306",
     "name": "AW",
     "price": "$12",
@@ -230,6 +509,8 @@
     "undertone": "Warm",
     "season": "Fall",
     "productId": "7656896069674",
+    "colorDescription": "warm grey",
+    "finishType": "Creme Opaque",
     "description": "A warm toned grey for when your mani wants to play it cool.\n\n\"AW is named after Alli Webb, founder of Drybar, who has been a big sister to us throughout the Olive & June journey. She loves a chic grey mani so this shade was a must-paint for her.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/aw_slide_0.png",
@@ -239,9 +520,36 @@
       "assets/images/aw_slide_4.png",
       "assets/images/aw_slide_5.png",
       "assets/images/aw_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "covet-gel",
+        "color": "#5d4550"
+      },
+      {
+        "id": "goal-getter-gel",
+        "color": "#553334"
+      },
+      {
+        "id": "still-life-of-flowers-gel",
+        "color": "#83a099"
+      },
+      {
+        "id": "aw-gel",
+        "color": "#b09f98"
+      },
+      {
+        "id": "dream-job-gel",
+        "color": "#e5cbc6"
+      },
+      {
+        "id": "sculpture-wing-gel",
+        "color": "#f0e3e4"
+      }
     ]
   },
   {
+    "id": "dream-job-gel",
     "variantId": "43072974389290",
     "name": "Dream Job",
     "price": "$12",
@@ -252,6 +560,8 @@
     "undertone": "Warm",
     "season": "Fall",
     "productId": "7656890630186",
+    "colorDescription": "milky sheer pink",
+    "finishType": "Sheers Sheer",
     "description": "A milky sheer pink that’s a neutral mani dream come true.\n\n“You never have to remind me that I truly have my dream job. Olive y’all!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/dream-job_slide_0.png",
@@ -261,9 +571,36 @@
       "assets/images/dream-job_slide_4.png",
       "assets/images/dream-job_slide_5.png",
       "assets/images/dream-job_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "covet-gel",
+        "color": "#5d4550"
+      },
+      {
+        "id": "goal-getter-gel",
+        "color": "#553334"
+      },
+      {
+        "id": "still-life-of-flowers-gel",
+        "color": "#83a099"
+      },
+      {
+        "id": "aw-gel",
+        "color": "#b09f98"
+      },
+      {
+        "id": "dream-job-gel",
+        "color": "#e5cbc6"
+      },
+      {
+        "id": "sculpture-wing-gel",
+        "color": "#f0e3e4"
+      }
     ]
   },
   {
+    "id": "sculpture-wing-gel",
     "variantId": "43072978616362",
     "name": "Sculpture Wing",
     "price": "$12",
@@ -274,6 +611,8 @@
     "undertone": "Cool",
     "season": "Fall",
     "productId": "7656892530730",
+    "colorDescription": "cool lavender neutral",
+    "finishType": "Creme Opaque",
     "description": "A cool lavender neutral with a touch of grey you’ll want to get lost in.\n\n“Equal parts lavender and grey, but 100% cool. My go-to fall pedi this season.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/sculpture-wing_slide_0.png",
@@ -283,12 +622,39 @@
       "assets/images/sculpture-wing_slide_4.png",
       "assets/images/sculpture-wing_slide_5.png",
       "assets/images/sculpture-wing_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "covet-gel",
+        "color": "#5d4550"
+      },
+      {
+        "id": "goal-getter-gel",
+        "color": "#553334"
+      },
+      {
+        "id": "still-life-of-flowers-gel",
+        "color": "#83a099"
+      },
+      {
+        "id": "aw-gel",
+        "color": "#b09f98"
+      },
+      {
+        "id": "dream-job-gel",
+        "color": "#e5cbc6"
+      },
+      {
+        "id": "sculpture-wing-gel",
+        "color": "#f0e3e4"
+      }
     ]
   },
   {
+    "id": "gel-peel-off-base-coat",
     "variantId": "42078604197930",
     "name": "Peel Off Base Coat",
-    "price": "$10",
+    "price": "$12",
     "url": "https://oliveandjune.com/collections/gel-polish/products/gel-peel-off-base-coat",
     "isNew": false,
     "color": "",
@@ -296,15 +662,19 @@
     "undertone": "",
     "season": "",
     "productId": "7463287259178",
+    "colorDescription": "",
+    "finishType": null,
     "description": "For the easiest, non-damaging removal of your gel manicure, start with our Peel Off Base Coat. Formulated with hydrating glycerin to treat your nails while you wear it.\nFor use with gel: After applying Peel Off Base Coat, you must apply Gel Base Coat and cure.\nCan also be used with Long-Lasting and Quick Dry polish for peel-off removal without nail polish remover.",
     "images": [
       "assets/images/peel-off-base-coat_slide_0.jpg",
       "assets/images/peel-off-base-coat_slide_1.png",
       "assets/images/peel-off-base-coat_slide_2.png",
       "assets/images/peel-off-base-coat_slide_3.png"
-    ]
+    ],
+    "relatedCollectionPolishes": []
   },
   {
+    "id": "gel-base-coat",
     "variantId": "42078604165162",
     "name": "Gel Base Coat",
     "price": "$12",
@@ -315,15 +685,19 @@
     "undertone": "",
     "season": "",
     "productId": "7463287226410",
+    "colorDescription": "",
+    "finishType": null,
     "description": "The essential prep step for maximum gel polish staying power. The perfect base coat for up to 21 days of gel bliss.\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/gel-base-coat_slide_0.jpg",
       "assets/images/gel-base-coat_slide_1.png",
       "assets/images/gel-base-coat_slide_2.png",
       "assets/images/gel-base-coat_slide_3.png"
-    ]
+    ],
+    "relatedCollectionPolishes": []
   },
   {
+    "id": "prom-gel",
     "variantId": "42078603345962",
     "name": "Prom",
     "price": "$12",
@@ -334,6 +708,8 @@
     "undertone": "Warm",
     "season": "",
     "productId": "7463286407210",
+    "colorDescription": "magenta pink",
+    "finishType": "Creme Opaque",
     "description": "A bold magenta pink gel polish for memorable manis and pedis.\n\n“This magenta gave us all the taffeta/chiffon prom dress vibes. Where’s my corsage?” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/prom_slide_0.png",
@@ -343,9 +719,124 @@
       "assets/images/prom_slide_4.jpg",
       "assets/images/prom_slide_5.jpg",
       "assets/images/prom_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
     ]
   },
   {
+    "id": "the-queen-takes-her-tea-with-milk-gel",
     "variantId": "42078603673642",
     "name": "The Queen Takes Her Tea With Milk",
     "price": "$12",
@@ -356,6 +847,8 @@
     "undertone": "Neutral",
     "season": "",
     "productId": "7463286734890",
+    "colorDescription": "sheer mauve",
+    "finishType": "Pastels Sheer",
     "description": "A neutral mauve sheer gel polish for a mani that’s always served just the way you like it.\n\n“What’s the character limit on polish names? We just found it. Another perfect name for a dream of a shade.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/the-queen-takes-her-tea-with-milk_slide_0.png",
@@ -365,53 +858,124 @@
       "assets/images/the-queen-takes-her-tea-with-milk_slide_4.png",
       "assets/images/the-queen-takes-her-tea-with-milk_slide_5.jpg",
       "assets/images/the-queen-takes-her-tea-with-milk_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
     ]
   },
   {
-    "variantId": "42078604001322",
-    "name": "Dancing Green",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/dancing-green-gel",
-    "isNew": false,
-    "color": "Greens",
-    "color_kind": "Iridescent",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463287062570",
-    "description": "A deep emerald green chrome gel polish that’s ready to dance, jive, and have the time of its life.\n\n“A new dark and shimmery emerald polish? I’m digging this dancing green.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/dancing-green_slide_0.png",
-      "assets/images/dancing-green_slide_1.png",
-      "assets/images/dancing-green_slide_2.png",
-      "assets/images/dancing-green_slide_3.png",
-      "assets/images/dancing-green_slide_4.png",
-      "assets/images/dancing-green_slide_5.png",
-      "assets/images/dancing-green_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603444266",
-    "name": "Obsessed",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/obsessed-gel",
-    "isNew": false,
-    "color": "Reds",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463286505514",
-    "description": "A dark ruby gel polish for a rich red mani.\n\n“This deep, dark red makes me feel ready for anything.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/obsessed_slide_0.png",
-      "assets/images/obsessed_slide_1.png",
-      "assets/images/obsessed_slide_2.png",
-      "assets/images/obsessed_slide_3.png",
-      "assets/images/obsessed_slide_4.png",
-      "assets/images/obsessed_slide_5.png",
-      "assets/images/obsessed_slide_6.jpg"
-    ]
-  },
-  {
+    "id": "suited-gel",
     "variantId": "42078604099626",
     "name": "Suited",
     "price": "$12",
@@ -422,6 +986,8 @@
     "undertone": "Cool",
     "season": "",
     "productId": "7463287160874",
+    "colorDescription": "navy blue",
+    "finishType": "Creme Opaque",
     "description": "A true dark navy gel polish that’s always at the top of the best dressed list.\n\n“Making a dark sapphire polish in Gel was an absolute must. This is an all-time favorite shade.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/suited_slide_0.png",
@@ -431,9 +997,124 @@
       "assets/images/suited_slide_4.jpg",
       "assets/images/suited_slide_5.jpg",
       "assets/images/suited_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
     ]
   },
   {
+    "id": "vintage-gel",
     "variantId": "42078603608106",
     "name": "Vintage",
     "price": "$12",
@@ -444,6 +1125,8 @@
     "undertone": "Cool",
     "season": "",
     "productId": "7463286669354",
+    "colorDescription": "denim blue",
+    "finishType": "Pastels Opaque",
     "description": "The ideal shade of vintage denim blue in our gel polish formula.\n\n“This shade is like finding your perfect pair of vintage jeans. When you know, you know!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/vintage_slide_0.png",
@@ -453,933 +1136,124 @@
       "assets/images/vintage_slide_4.png",
       "assets/images/vintage_slide_5.png",
       "assets/images/vintage_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
     ]
   },
   {
-    "variantId": "42078603935786",
-    "name": "Shacket",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/shacket-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463286997034",
-    "description": "A warm rose neutral gel polish that’s part jacket, part shirt, all perfect.\n\n“What’s shaking, shacket season? This one is for my pinky-rose-warm neutral lovers.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/shacket_slide_0.png",
-      "assets/images/shacket_slide_1.png",
-      "assets/images/shacket_slide_2.png",
-      "assets/images/shacket_slide_3.png",
-      "assets/images/shacket_slide_4.png",
-      "assets/images/shacket_slide_5.jpg",
-      "assets/images/shacket_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603313194",
-    "name": "XOXO",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/xoxo-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463286374442",
-    "description": "A pop of hot pink gel polish for the coolest mani ever.\n\n“This pink is so fun and packs a total pop. I love how bright it is.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/xoxo_slide_0.png",
-      "assets/images/xoxo_slide_1.png",
-      "assets/images/xoxo_slide_2.png",
-      "assets/images/xoxo_slide_3.png",
-      "assets/images/xoxo_slide_4.png",
-      "assets/images/xoxo_slide_5.png",
-      "assets/images/xoxo_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42455502258218",
-    "name": "Secret Recipe",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/secret-recipe-gel",
-    "isNew": false,
-    "color": "Reds",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "Winter",
-    "productId": "7524451745834",
-    "description": "A classic blue-toned red that’s been crafted to perfection over years.\n\n“Everyone has been asking for a blue toned red since day 1. We’ll never reveal the O&J family recipe, though.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/secret-recipe_slide_0.png",
-      "assets/images/secret-recipe_slide_1.png",
-      "assets/images/secret-recipe_slide_2.png",
-      "assets/images/secret-recipe_slide_3.png",
-      "assets/images/secret-recipe_slide_4.png",
-      "assets/images/secret-recipe_slide_5.png",
-      "assets/images/secret-recipe_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603968554",
-    "name": "Icing Is The Best Part",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/icing-is-the-best-part-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Sheers",
-    "undertone": "Neutral",
-    "season": "",
-    "productId": "7463287029802",
-    "description": "A sweet milky white sheer gel polish inspired by icing that’s the best part of every neutral mani.\n\n“The truth is I prefer cake over frosting, but when it comes to a mani— icing really is the best part.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/icing-is-the-best-part_slide_0.png",
-      "assets/images/icing-is-the-best-part_slide_1.png",
-      "assets/images/icing-is-the-best-part_slide_2.png",
-      "assets/images/icing-is-the-best-part_slide_3.png",
-      "assets/images/icing-is-the-best-part_slide_4.png",
-      "assets/images/icing-is-the-best-part_slide_5.png",
-      "assets/images/icing-is-the-best-part_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42616376197162",
-    "name": "Your Mani Looks So Good in Those Jeans",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/your-mani-looks-so-good-in-those-jeans-gel",
-    "isNew": false,
-    "color": "Blues",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "Spring",
-    "productId": "7552364707882",
-    "description": "A bright denim blue that’s always a perfect fit and always looks SO good.\n\n“Prepare for compliments with this color! And to smile everytime you tell someone what it’s called.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_0.png",
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_1.png",
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_2.png",
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_3.png",
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_4.jpg",
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_5.jpg",
-      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603247658",
-    "name": "GH",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/gh-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Pastels",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463286308906",
-    "description": "Opaque, goes-with-everything baby pink gel polish for a glowy, goes-with-everything mani.\n\n\"GH is named after Geri Hirsch who is the friend that reminds me that nail polish can be the best accessory so naming our first shade of pink after her felt like the right thing to do!\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/gh_slide_0.png",
-      "assets/images/gh_slide_1.png",
-      "assets/images/gh_slide_2.png",
-      "assets/images/gh_slide_3.png",
-      "assets/images/gh_slide_4.png",
-      "assets/images/gh_slide_5.jpg",
-      "assets/images/gh_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603706410",
-    "name": "Pink Goldfish",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/pink-goldfish-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Iridescent",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463286767658",
-    "description": "A shimmery pink iridescent gel polish named by NJK, SGT’s daughter.\n\n“My dream pet is a goldfish that's pink.” -NJK\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/pink-goldfish_slide_0.png",
-      "assets/images/pink-goldfish_slide_1.png",
-      "assets/images/pink-goldfish_slide_2.png",
-      "assets/images/pink-goldfish_slide_3.png",
-      "assets/images/pink-goldfish_slide_4.jpg",
-      "assets/images/pink-goldfish_slide_5.jpg",
-      "assets/images/pink-goldfish_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603804714",
-    "name": "Mulberry",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/mulberry-gel",
-    "isNew": false,
-    "color": "Reds",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463286865962",
-    "description": "A deep mulberry maroon gel polish.\n\n“This deep plummy shade was the mani that sparked 100s of Instagram comments when I teased it. So happy it’s finally here.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/mulberry_slide_0.png",
-      "assets/images/mulberry_slide_1.png",
-      "assets/images/mulberry_slide_2.png",
-      "assets/images/mulberry_slide_3.png",
-      "assets/images/mulberry_slide_4.png",
-      "assets/images/mulberry_slide_5.jpg",
-      "assets/images/mulberry_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42781627121706",
-    "name": "Wild Orchid",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/wild-orchid-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "Summer",
-    "productId": "7593191276586",
-    "description": "A rich magenta purple with a wild side.\n\n“A bold magenta that’s the right dose of wild.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/wild-orchid_slide_0.png",
-      "assets/images/wild-orchid_slide_1.png",
-      "assets/images/wild-orchid_slide_2.png",
-      "assets/images/wild-orchid_slide_3.png",
-      "assets/images/wild-orchid_slide_4.png",
-      "assets/images/wild-orchid_slide_5.png",
-      "assets/images/wild-orchid_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42076564127786",
-    "name": "HD",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/hd-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Pastels",
-    "undertone": "Neutral",
-    "season": "",
-    "productId": "7462874677290",
-    "description": "A clean, crisp white gel polish with just a touch of softness that pops against all skin tones. Fresher than fresh.\n\n\"HD is named after Haylie Duff. She's the sister I've always wanted! She lives for a white mani so this polish had to be hers.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/hd_slide_0.png",
-      "assets/images/hd_slide_1.png",
-      "assets/images/hd_slide_2.png",
-      "assets/images/hd_slide_3.png",
-      "assets/images/hd_slide_4.png",
-      "assets/images/hd_slide_5.jpg",
-      "assets/images/hd_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603640874",
-    "name": "E+M",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/e-m-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Creme",
-    "undertone": "Neutral",
-    "season": "",
-    "productId": "7463286702122",
-    "description": "A highly pigmented deep black gel polish.\n\n\"E+M is named after Emily & Meritt, stylists, designers, and co-founders of The Great. I live in their clothing - it’s so comfy, so chic, and always fits just-right. Our classic black polish and this iconic duo seemed like a perfect match.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/e-m_slide_0.png",
-      "assets/images/e-m_slide_1.png",
-      "assets/images/e-m_slide_2.png",
-      "assets/images/e-m_slide_3.png",
-      "assets/images/e-m_slide_4.jpg",
-      "assets/images/e-m_slide_5.jpg",
-      "assets/images/e-m_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42616379834410",
-    "name": "Olive Y'all",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/olive-yall-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Iridescent",
-    "undertone": "Warm",
-    "season": "Spring",
-    "productId": "7552367198250",
-    "description": "A sheer bubble gum pink-blue iridescent shade that you can’t help but adore.\n\n“Olive Y’all! This is a sheer goldfish vibe with a bigger punch of pink.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/olive-y-all_slide_0.png",
-      "assets/images/olive-y-all_slide_1.png",
-      "assets/images/olive-y-all_slide_2.png",
-      "assets/images/olive-y-all_slide_3.png",
-      "assets/images/olive-y-all_slide_4.jpg",
-      "assets/images/olive-y-all_slide_5.jpg",
-      "assets/images/olive-y-all_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42781625221162",
-    "name": "Aced It",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/aced-it-gel",
-    "isNew": false,
-    "color": "Greens",
-    "color_kind": "Sheers",
-    "undertone": "Cool",
-    "season": "Summer",
-    "productId": "7593190981674",
-    "description": "A cool pastel green for a sweet mani that always gets it right.\n\n“If only I could use Poppy for my backhand. Then I’d always Ace It.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/aced-it_slide_0.png",
-      "assets/images/aced-it_slide_1.png",
-      "assets/images/aced-it_slide_2.png",
-      "assets/images/aced-it_slide_3.png",
-      "assets/images/aced-it_slide_4.png",
-      "assets/images/aced-it_slide_5.png",
-      "assets/images/aced-it_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603903018",
-    "name": "Fiddlefig",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/fiddlefig-gel",
-    "isNew": false,
-    "color": "Greens",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463286964266",
-    "description": "A deep leafy green gel polish for fabulously fresh moody manis.\n\n“Finally - a fiddleleaf fig that stays perfectly dark green and I never have to remember to water it.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/fiddlefig_slide_0.png",
-      "assets/images/fiddlefig_slide_1.png",
-      "assets/images/fiddlefig_slide_2.png",
-      "assets/images/fiddlefig_slide_3.png",
-      "assets/images/fiddlefig_slide_4.jpg",
-      "assets/images/fiddlefig_slide_5.jpg",
-      "assets/images/fiddlefig_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603739178",
-    "name": "Atlas",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/atlas-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Iridescent",
-    "undertone": "Neutral",
-    "season": "Winter",
-    "productId": "7463286800426",
-    "description": "A pearly white gel polish that great love stories are made of.\n\n“This was the shade that made me want to try layering polish. Y’all are going to love this one.” - COHO\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/atlas_slide_0.png",
-      "assets/images/atlas_slide_1.png",
-      "assets/images/atlas_slide_2.png",
-      "assets/images/atlas_slide_3.png",
-      "assets/images/atlas_slide_4.jpg",
-      "assets/images/atlas_slide_5.jpg",
-      "assets/images/atlas_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603870250",
-    "name": "Plaza",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/plaza-gel",
-    "isNew": false,
-    "color": "Purples",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463286931498",
-    "description": "A deep mulberry purple gel polish for 5-star luxury manis.\n\n“When I think of New York, I instantly think of deep, rich colors like this one.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/plaza_slide_0.png",
-      "assets/images/plaza_slide_1.png",
-      "assets/images/plaza_slide_2.png",
-      "assets/images/plaza_slide_3.png",
-      "assets/images/plaza_slide_4.jpg",
-      "assets/images/plaza_slide_5.jpg",
-      "assets/images/plaza_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603771946",
-    "name": "CCT",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/cct-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Pastels",
-    "undertone": "Neutral",
-    "season": "",
-    "productId": "7463286833194",
-    "description": "A sheer pink gel polish that makes a soft, feminine statement.\n\n\"CCT is named after Cologne Trude, co-founder of Show Me Your Mumu. This pretty sheer pink is so effortless and feminine, just like her Mumu creations.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/cct_slide_0.png",
-      "assets/images/cct_slide_1.png",
-      "assets/images/cct_slide_2.png",
-      "assets/images/cct_slide_3.png",
-      "assets/images/cct_slide_4.jpg",
-      "assets/images/cct_slide_5.png",
-      "assets/images/cct_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603575338",
-    "name": "KMC",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/kmc-gel",
-    "isNew": false,
-    "color": "Greens",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "Spring",
-    "productId": "7463286636586",
-    "description": "A sage green gel polish that's your new favorite neutral.\n\n\"KMC is named after Kristen Caissie, founder of Moon Canyon. Her incredible florals make events feel magical - including my wedding!  A sage green straight out of a garden party was the right shade for her.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/kmc_slide_0.png",
-      "assets/images/kmc_slide_1.png",
-      "assets/images/kmc_slide_2.png",
-      "assets/images/kmc_slide_3.png",
-      "assets/images/kmc_slide_4.jpg",
-      "assets/images/kmc_slide_5.jpg",
-      "assets/images/kmc_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603411498",
-    "name": "LD",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/ld-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463286472746",
-    "description": "A rosy-hued neutral gel polish for a sweater-weather take on pink.\n\n“LD is named after Lauren Davis, a total O&J bestie. Her manis inspire us all. of. the. time! I knew this stunning mauve-y rose-y pink had to be LD as soon as I saw it.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/ld_slide_0.png",
-      "assets/images/ld_slide_1.png",
-      "assets/images/ld_slide_2.png",
-      "assets/images/ld_slide_3.png",
-      "assets/images/ld_slide_4.jpg",
-      "assets/images/ld_slide_5.png",
-      "assets/images/ld_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42723494101034",
-    "name": "Petal",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/petal-gel",
-    "isNew": false,
-    "color": "Purples",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "Spring",
-    "productId": "7576529895466",
-    "description": "A bright floral purple with a touch of pink for nails that were born to bloom.\n\n“For when I really need to put the *petal* to the metal on spring vibes, I reach for this fab floral shade.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/petal_slide_0.png",
-      "assets/images/petal_slide_1.png",
-      "assets/images/petal_slide_2.png",
-      "assets/images/petal_slide_3.png",
-      "assets/images/petal_slide_4.png",
-      "assets/images/petal_slide_5.png",
-      "assets/images/petal_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42616378753066",
-    "name": "Rodeo Queen",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/rodeo-queen-gel",
-    "isNew": false,
-    "color": "Reds",
-    "color_kind": "Iridescent",
-    "undertone": "Warm",
-    "season": "Spring",
-    "productId": "7552366346282",
-    "description": "A bright pinky-red gel polish packed with silver shimmer that reigns supreme.\n\n“For instant fierce and fabulous Dolly vibes, only this red glitter will do.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/rodeo-queen_slide_0.png",
-      "assets/images/rodeo-queen_slide_1.png",
-      "assets/images/rodeo-queen_slide_2.png",
-      "assets/images/rodeo-queen_slide_3.png",
-      "assets/images/rodeo-queen_slide_4.jpg",
-      "assets/images/rodeo-queen_slide_5.jpg",
-      "assets/images/rodeo-queen_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42781622042666",
-    "name": "Saltwater Taffy",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/saltwater-taffy-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Sheers",
-    "undertone": "Warm",
-    "season": "Summer",
-    "productId": "7593189998634",
-    "description": "A deliciously pretty sheer pink shade that’s sweeter than candy.\n\n“Give me a bag of sweet salt water taffy and this mani and I’m good to go.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/saltwater-taffy_slide_0.png",
-      "assets/images/saltwater-taffy_slide_1.png",
-      "assets/images/saltwater-taffy_slide_2.png",
-      "assets/images/saltwater-taffy_slide_3.png",
-      "assets/images/saltwater-taffy_slide_4.png",
-      "assets/images/saltwater-taffy_slide_5.png",
-      "assets/images/saltwater-taffy_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603509802",
-    "name": "You're Invited",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/you-re-invited-gel",
-    "isNew": false,
-    "color": "Purples",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "Spring",
-    "productId": "7463286571050",
-    "description": "A playful lilac purple gel polish that always RSVPs yes.\n\n“I’ve lost count of how many times people have asked for a classic lavender. This shade is years in the making.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/you-re-invited_slide_0.png",
-      "assets/images/you-re-invited_slide_1.png",
-      "assets/images/you-re-invited_slide_2.png",
-      "assets/images/you-re-invited_slide_3.png",
-      "assets/images/you-re-invited_slide_4.png",
-      "assets/images/you-re-invited_slide_5.png",
-      "assets/images/you-re-invited_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603477034",
-    "name": "Bold & Unshaken",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/bold-unshaken-gel",
-    "isNew": false,
-    "color": "Purples",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463286538282",
-    "description": "A bold purple gel polish that elevates every mood.\n\n\"If you need a reminder of how unique and special you are, this is it.\" XO SGT\n\n“Bold, fierce and unshaken, just like you!” XO NN\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/bold-unshaken_slide_0.png",
-      "assets/images/bold-unshaken_slide_1.png",
-      "assets/images/bold-unshaken_slide_2.png",
-      "assets/images/bold-unshaken_slide_3.png",
-      "assets/images/bold-unshaken_slide_4.jpg",
-      "assets/images/bold-unshaken_slide_5.jpg",
-      "assets/images/bold-unshaken_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078604132394",
-    "name": "HZ",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/hz-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463287193642",
-    "description": "A rosy toned neutral gel polish for a mani with a feminine edge.\n\n\"HZ is named after Heidi Zak, founder of ThirdLove, who blew us away with her immediate support of Olive & June, while running her own empire, no big deal! Naming a shade after such a badass CEO was meant to be.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/hz_slide_0.png",
-      "assets/images/hz_slide_1.png",
-      "assets/images/hz_slide_2.png",
-      "assets/images/hz_slide_3.png",
-      "assets/images/hz_slide_4.jpg",
-      "assets/images/hz_slide_5.jpg",
-      "assets/images/hz_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078603542570",
-    "name": "BP",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/bp-gel",
-    "isNew": false,
-    "color": "Blues",
-    "color_kind": "Pastels",
-    "undertone": "Cool",
-    "season": "Spring",
-    "productId": "7463286603818",
-    "description": "The ideal, icy light blue gel polish. The pastel color our mani dreams are made of.\n\n\"BP is named after Barrett Prendergast who basically is mom / wife / friend / founder goals. She lives for a cool blue so we made this one just for her.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/bp_slide_0.png",
-      "assets/images/bp_slide_1.png",
-      "assets/images/bp_slide_2.png",
-      "assets/images/bp_slide_3.png",
-      "assets/images/bp_slide_4.jpg",
-      "assets/images/bp_slide_5.jpg",
-      "assets/images/bp_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42078604066858",
-    "name": "Cosmic Silver",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/cosmic-silver-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Metallics Glitters",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7463287128106",
-    "description": "A silver metallic gel polish created to match the exact shade of Beats Studio Buds +.\n\n“Me in this metallic shade with my new beats studio buds in = I’m ready for anything.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/cosmic-silver_slide_0.png",
-      "assets/images/cosmic-silver_slide_1.png",
-      "assets/images/cosmic-silver_slide_2.png",
-      "assets/images/cosmic-silver_slide_3.png",
-      "assets/images/cosmic-silver_slide_4.jpg",
-      "assets/images/cosmic-silver_slide_5.png",
-      "assets/images/cosmic-silver_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42685371056170",
-    "name": "Amethyst Velvet",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/amethyst-velvet-gel",
-    "isNew": false,
-    "color": "Purples",
-    "color_kind": "Metallics Glitters",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7565289979946",
-    "description": "A pretty pastel lavender magnetic gel polish that’s perfectly purple.\n\n“Lavender has always been our go-to new neutral. It needed to be velvet!” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/amethyst-velvet_slide_0.png",
-      "assets/images/amethyst-velvet_slide_1.png",
-      "assets/images/amethyst-velvet_slide_2.png",
-      "assets/images/amethyst-velvet_slide_3.png",
-      "assets/images/amethyst-velvet_slide_4.jpg",
-      "assets/images/amethyst-velvet_slide_5.jpg",
-      "assets/images/amethyst-velvet_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42723488628778",
-    "name": "CDJ",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/cdj-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Creme",
-    "undertone": "Neutral",
-    "season": "",
-    "productId": "7576529109034",
-    "description": "Cool, creamy neutral that plays nice with all skin tones. Wear if you like compliments.\n\n\"CDJ is named after Caroline De Jean who is the ultimate O&J OG: booked the very first appointment at all three of our LA salons. I’ve had mani envy ever since!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/cdj_slide_0.png",
-      "assets/images/cdj_slide_1.png",
-      "assets/images/cdj_slide_2.png",
-      "assets/images/cdj_slide_3.png",
-      "assets/images/cdj_slide_4.png",
-      "assets/images/cdj_slide_5.png",
-      "assets/images/cdj_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603837482",
-    "name": "JJ",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/jj-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463286898730",
-    "description": "A cozy cinnamon brown gel polish that has the just right amount of sweet and spicy.\n\n“JJ is named after Juliana Joel, who I met a few years ago in our salon and we’ve been friends ever since. This dreamy warm shade is so JJ’s style.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/jj_slide_0.png",
-      "assets/images/jj_slide_1.png",
-      "assets/images/jj_slide_2.png",
-      "assets/images/jj_slide_3.png",
-      "assets/images/jj_slide_4.jpg",
-      "assets/images/jj_slide_5.png",
-      "assets/images/jj_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42723499442218",
-    "name": "LHG",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/lhg-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Creme",
-    "undertone": "Cool",
-    "season": "Spring",
-    "productId": "7576530878506",
-    "description": "A fresh grey neutral with the most subtle hint of pink.\n\n“Libby is all about a neutral mani year-round, and the splash of pinky-grey is too pretty.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/lhg_slide_0.png",
-      "assets/images/lhg_slide_1.png",
-      "assets/images/lhg_slide_2.png",
-      "assets/images/lhg_slide_3.png",
-      "assets/images/lhg_slide_4.png",
-      "assets/images/lhg_slide_5.png",
-      "assets/images/lhg_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42078603280426",
-    "name": "CS",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/cs-gel",
-    "isNew": false,
-    "color": "Oranges",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "Spring",
-    "productId": "7463286341674",
-    "description": "This floral coral gel polish is petal-soft peachy perfection.\n\n\"CS is named after Christina Stembel, the founder of Farmgirl Flowers. Nothing makes me happier than fresh flowers and this perfect peach is totally inspired by her beautiful blooms.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/cs_slide_0.png",
-      "assets/images/cs_slide_1.png",
-      "assets/images/cs_slide_2.png",
-      "assets/images/cs_slide_3.png",
-      "assets/images/cs_slide_4.jpg",
-      "assets/images/cs_slide_5.png",
-      "assets/images/cs_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42723490267178",
-    "name": "KAG",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/kag-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "Spring",
-    "productId": "7576529403946",
-    "description": "A neutral peachy pink that takes you from the sand to a Stoney Clover near you.\n\n“When I first met Kendall in LA, we immediately started dreaming up this peachy pink hue and we nailed it.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/kag_slide_0.png",
-      "assets/images/kag_slide_1.png",
-      "assets/images/kag_slide_2.png",
-      "assets/images/kag_slide_3.png",
-      "assets/images/kag_slide_4.png",
-      "assets/images/kag_slide_5.png",
-      "assets/images/kag_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42723494920234",
-    "name": "Field Day",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/field-day-gel",
-    "isNew": false,
-    "color": "Reds",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "Spring",
-    "productId": "7576530321450",
-    "description": "A juicy watermelon red that is always here for a good time.\n\n\"My kind of summer red, perfect for sunny afternoons in the grass!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/field-day_slide_0.png",
-      "assets/images/field-day_slide_1.png",
-      "assets/images/field-day_slide_2.png",
-      "assets/images/field-day_slide_3.png",
-      "assets/images/field-day_slide_4.png",
-      "assets/images/field-day_slide_5.png",
-      "assets/images/field-day_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42685537845290",
-    "name": "Aqua Velvet",
-    "price": "$13",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/aqua-velvet-gel",
-    "isNew": false,
-    "color": "Blues",
-    "color_kind": "Metallics Glitters",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7565299777578",
-    "description": "A bright pastel blue magnetic gel polish.\n\n“This is the dreamiest, happiest blue that makes me wanna dive right in. ” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/aqua-velvet_slide_0.png",
-      "assets/images/aqua-velvet_slide_1.png",
-      "assets/images/aqua-velvet_slide_2.png",
-      "assets/images/aqua-velvet_slide_3.png",
-      "assets/images/aqua-velvet_slide_4.jpg",
-      "assets/images/aqua-velvet_slide_5.jpg",
-      "assets/images/aqua-velvet_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42866556534826",
-    "name": "Permanent Vacation",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/permanent-vacation-gel",
-    "isNew": false,
-    "color": "Pinks",
-    "color_kind": "Brights",
-    "undertone": "Warm",
-    "season": "Summer",
-    "productId": "7620312924202",
-    "description": "A bright pink that fades to a soft bubblegum after prolonged sun exposure.\n\n“My mind and my mani are on a permanent vacation as long as I’ve got this color on.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
-    "images": [
-      "assets/images/permanent-vacation_slide_0.png",
-      "assets/images/permanent-vacation_slide_1.png",
-      "assets/images/permanent-vacation_slide_2.png",
-      "assets/images/permanent-vacation_slide_3.png",
-      "assets/images/permanent-vacation_slide_4.png",
-      "assets/images/permanent-vacation_slide_5.png",
-      "assets/images/permanent-vacation_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42685637427242",
-    "name": "Platinum Velvet",
-    "price": "$13",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/platinum-velvet-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Metallics Glitters",
-    "undertone": "Cool",
-    "season": "",
-    "productId": "7565302595626",
-    "description": "A sheer silver shimmer magnetic polish that dazzles with sparkle.\n\n“For everyone who loves our velvet effect pressies - this is the gel secret!” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/platinum-velvet_slide_0.png",
-      "assets/images/platinum-velvet_slide_1.png",
-      "assets/images/platinum-velvet_slide_2.png",
-      "assets/images/platinum-velvet_slide_3.png",
-      "assets/images/platinum-velvet_slide_4.jpg",
-      "assets/images/platinum-velvet_slide_5.jpg",
-      "assets/images/platinum-velvet_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42685700997162",
-    "name": "Golden Velvet",
-    "price": "$13",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/golden-velvet-gel",
-    "isNew": false,
-    "color": "Neutrals",
-    "color_kind": "Metallics Glitters",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7565304430634",
-    "description": "A sheer golden bronze magnetic polish with magical metallic depth.\n\n“Catch me staring at my nails all day whenever I wear this on top of my gel mani.” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/golden-velvet_slide_0.png",
-      "assets/images/golden-velvet_slide_1.png",
-      "assets/images/golden-velvet_slide_2.png",
-      "assets/images/golden-velvet_slide_3.png",
-      "assets/images/golden-velvet_slide_4.jpg",
-      "assets/images/golden-velvet_slide_5.jpg",
-      "assets/images/golden-velvet_slide_6.jpg"
-    ]
-  },
-  {
-    "variantId": "42866562138154",
-    "name": "OOO 4EVA",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/ooo-4eva-gel",
-    "isNew": false,
-    "color": "Oranges",
-    "color_kind": "Brights",
-    "undertone": "Warm",
-    "season": "Summer",
-    "productId": "7620314923050",
-    "description": "A radiant tangerine orange that glows and glows — you’ll want to wear it forever.\n\n“Hi! Thanks for your email, I’m actually OOO 4EVA wearing my dream orange gel.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
-    "images": [
-      "assets/images/ooo-4eva_slide_0.png",
-      "assets/images/ooo-4eva_slide_1.png",
-      "assets/images/ooo-4eva_slide_2.png",
-      "assets/images/ooo-4eva_slide_3.png",
-      "assets/images/ooo-4eva_slide_4.png",
-      "assets/images/ooo-4eva_slide_5.png",
-      "assets/images/ooo-4eva_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42866589040682",
-    "name": "Wish You Were Here",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/wish-you-were-here-gel",
-    "isNew": false,
-    "color": "Purples",
-    "color_kind": "Brights",
-    "undertone": "Cool",
-    "season": "Summer",
-    "productId": "7620331569194",
-    "description": "An ultra vivid violet shade for pretty purple manis that feel like a postcard from paradise.\n\n“Wish all the besties were matching with me in bright purple manis.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
-    "images": [
-      "assets/images/wish-you-were-here_slide_0.png",
-      "assets/images/wish-you-were-here_slide_1.png",
-      "assets/images/wish-you-were-here_slide_2.png",
-      "assets/images/wish-you-were-here_slide_3.png",
-      "assets/images/wish-you-were-here_slide_4.png",
-      "assets/images/wish-you-were-here_slide_5.png",
-      "assets/images/wish-you-were-here_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42866587009066",
-    "name": "Cancel My Return Flight",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/cancel-my-return-flight-gel",
-    "isNew": false,
-    "color": "Greens",
-    "color_kind": "Brights",
-    "undertone": "Cool",
-    "season": "Summer",
-    "productId": "7620330258474",
-    "description": "A nearly-neon electric lime shade for nails you’ll never want to leave.\n\n“This polish name is inspired by me, anytime I go on vacay anywhere.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
-    "images": [
-      "assets/images/cancel-my-return-flight_slide_0.png",
-      "assets/images/cancel-my-return-flight_slide_1.png",
-      "assets/images/cancel-my-return-flight_slide_2.png",
-      "assets/images/cancel-my-return-flight_slide_3.png",
-      "assets/images/cancel-my-return-flight_slide_4.png",
-      "assets/images/cancel-my-return-flight_slide_5.png",
-      "assets/images/cancel-my-return-flight_slide_6.png"
-    ]
-  },
-  {
-    "variantId": "42866565414954",
-    "name": "Time To Re-apply",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/time-to-re-apply-gel",
-    "isNew": false,
-    "color": "Yellows",
-    "color_kind": "Brights",
-    "undertone": "Cool",
-    "season": "Summer",
-    "productId": "7620316692522",
-    "description": "A day-glow bright yellow green shade that’s so bright, you’ll need sunglasses.\n\n“How did we bottle electricity with this shade? Instant party.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
-    "images": [
-      "assets/images/time-to-re-apply_slide_0.png",
-      "assets/images/time-to-re-apply_slide_1.png",
-      "assets/images/time-to-re-apply_slide_2.png",
-      "assets/images/time-to-re-apply_slide_3.png",
-      "assets/images/time-to-re-apply_slide_4.png",
-      "assets/images/time-to-re-apply_slide_5.png",
-      "assets/images/time-to-re-apply_slide_6.png"
-    ]
-  },
-  {
+    "id": "cv-gel",
     "variantId": "42078603378730",
     "name": "CV",
     "price": "$12",
@@ -1390,6 +1264,8 @@
     "undertone": "Warm",
     "season": "",
     "productId": "7463286439978",
+    "colorDescription": "cherry red",
+    "finishType": "Creme Opaque",
     "description": "A color-forward cherry red gel polish.\n\n\"CV is named after Clare Vivier, founder of Clare V: Her bags are one of my favorite ways to treat myself - I must own at least ten! A bright red shade that feels classic but fun - just like her brand.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
       "assets/images/cv_slide_0.png",
@@ -1399,6 +1275,4319 @@
       "assets/images/cv_slide_4.jpg",
       "assets/images/cv_slide_5.png",
       "assets/images/cv_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "dancing-green-gel",
+    "variantId": "42078604001322",
+    "name": "Dancing Green",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/dancing-green-gel",
+    "isNew": false,
+    "color": "Greens",
+    "color_kind": "Iridescent",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463287062570",
+    "colorDescription": "shimmery emerald",
+    "finishType": "Iridescent",
+    "description": "A deep emerald green chrome gel polish that’s ready to dance, jive, and have the time of its life.\n\n“A new dark and shimmery emerald polish? I’m digging this dancing green.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/dancing-green_slide_0.png",
+      "assets/images/dancing-green_slide_1.png",
+      "assets/images/dancing-green_slide_2.png",
+      "assets/images/dancing-green_slide_3.png",
+      "assets/images/dancing-green_slide_4.png",
+      "assets/images/dancing-green_slide_5.png",
+      "assets/images/dancing-green_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "obsessed-gel",
+    "variantId": "42078603444266",
+    "name": "Obsessed",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/obsessed-gel",
+    "isNew": false,
+    "color": "Reds",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286505514",
+    "colorDescription": "deep ruby",
+    "finishType": "Creme Opaque",
+    "description": "A dark ruby gel polish for a rich red mani.\n\n“This deep, dark red makes me feel ready for anything.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/obsessed_slide_0.png",
+      "assets/images/obsessed_slide_1.png",
+      "assets/images/obsessed_slide_2.png",
+      "assets/images/obsessed_slide_3.png",
+      "assets/images/obsessed_slide_4.png",
+      "assets/images/obsessed_slide_5.png",
+      "assets/images/obsessed_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "shacket-gel",
+    "variantId": "42078603935786",
+    "name": "Shacket",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/shacket-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7463286997034",
+    "colorDescription": "mauve brown",
+    "finishType": "Creme",
+    "description": "A warm rose neutral gel polish that’s part jacket, part shirt, all perfect.\n\n“What’s shaking, shacket season? This one is for my pinky-rose-warm neutral lovers.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/shacket_slide_0.png",
+      "assets/images/shacket_slide_1.png",
+      "assets/images/shacket_slide_2.png",
+      "assets/images/shacket_slide_3.png",
+      "assets/images/shacket_slide_4.png",
+      "assets/images/shacket_slide_5.jpg",
+      "assets/images/shacket_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "xoxo-gel",
+    "variantId": "42078603313194",
+    "name": "XOXO",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/xoxo-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7463286374442",
+    "colorDescription": "neon pink",
+    "finishType": "Creme Opaque",
+    "description": "A pop of hot pink gel polish for the coolest mani ever.\n\n“This pink is so fun and packs a total pop. I love how bright it is.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/xoxo_slide_0.png",
+      "assets/images/xoxo_slide_1.png",
+      "assets/images/xoxo_slide_2.png",
+      "assets/images/xoxo_slide_3.png",
+      "assets/images/xoxo_slide_4.png",
+      "assets/images/xoxo_slide_5.png",
+      "assets/images/xoxo_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "icing-is-the-best-part-gel",
+    "variantId": "42078603968554",
+    "name": "Icing Is The Best Part",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/icing-is-the-best-part-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Sheers",
+    "undertone": "Neutral",
+    "season": "",
+    "productId": "7463287029802",
+    "colorDescription": "milky white",
+    "finishType": "Sheers Sheer",
+    "description": "A sweet milky white sheer gel polish inspired by icing that’s the best part of every neutral mani.\n\n“The truth is I prefer cake over frosting, but when it comes to a mani— icing really is the best part.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/icing-is-the-best-part_slide_0.png",
+      "assets/images/icing-is-the-best-part_slide_1.png",
+      "assets/images/icing-is-the-best-part_slide_2.png",
+      "assets/images/icing-is-the-best-part_slide_3.png",
+      "assets/images/icing-is-the-best-part_slide_4.png",
+      "assets/images/icing-is-the-best-part_slide_5.png",
+      "assets/images/icing-is-the-best-part_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "secret-recipe-gel",
+    "variantId": "42455502258218",
+    "name": "Secret Recipe",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/secret-recipe-gel",
+    "isNew": false,
+    "color": "Reds",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "Winter",
+    "productId": "7524451745834",
+    "colorDescription": "blue-toned red",
+    "finishType": "Creme Opaque",
+    "description": "A classic blue-toned red that’s been crafted to perfection over years.\n\n“Everyone has been asking for a blue toned red since day 1. We’ll never reveal the O&J family recipe, though.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/secret-recipe_slide_0.png",
+      "assets/images/secret-recipe_slide_1.png",
+      "assets/images/secret-recipe_slide_2.png",
+      "assets/images/secret-recipe_slide_3.png",
+      "assets/images/secret-recipe_slide_4.png",
+      "assets/images/secret-recipe_slide_5.png",
+      "assets/images/secret-recipe_slide_6.png"
+    ],
+    "relatedCollectionPolishes": []
+  },
+  {
+    "id": "gh-gel",
+    "variantId": "42078603247658",
+    "name": "GH",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/gh-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Pastels",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7463286308906",
+    "colorDescription": "baby pink",
+    "finishType": "Pastels Opaque",
+    "description": "Opaque, goes-with-everything baby pink gel polish for a glowy, goes-with-everything mani.\n\n\"GH is named after Geri Hirsch who is the friend that reminds me that nail polish can be the best accessory so naming our first shade of pink after her felt like the right thing to do!\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/gh_slide_0.png",
+      "assets/images/gh_slide_1.png",
+      "assets/images/gh_slide_2.png",
+      "assets/images/gh_slide_3.png",
+      "assets/images/gh_slide_4.png",
+      "assets/images/gh_slide_5.jpg",
+      "assets/images/gh_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "your-mani-looks-so-good-in-those-jeans-gel",
+    "variantId": "42616376197162",
+    "name": "Your Mani Looks So Good in Those Jeans",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/your-mani-looks-so-good-in-those-jeans-gel",
+    "isNew": false,
+    "color": "Blues",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "Spring",
+    "productId": "7552364707882",
+    "colorDescription": "bright deep blue",
+    "finishType": "Creme Opaque",
+    "description": "A bright denim blue that’s always a perfect fit and always looks SO good.\n\n“Prepare for compliments with this color! And to smile everytime you tell someone what it’s called.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_0.png",
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_1.png",
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_2.png",
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_3.png",
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_4.jpg",
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_5.jpg",
+      "assets/images/your-mani-looks-so-good-in-those-jeans_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "your-mani-looks-so-good-in-those-jeans-gel",
+        "color": "#354a9e"
+      },
+      {
+        "id": "olive-yall-gel",
+        "color": "#dcc8e4"
+      },
+      {
+        "id": "rodeo-queen-gel",
+        "color": "#ed2b4e"
+      }
+    ]
+  },
+  {
+    "id": "mulberry-gel",
+    "variantId": "42078603804714",
+    "name": "Mulberry",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/mulberry-gel",
+    "isNew": false,
+    "color": "Reds",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286865962",
+    "colorDescription": "moody maroon",
+    "finishType": "Creme Opaque",
+    "description": "A deep mulberry maroon gel polish.\n\n“This deep plummy shade was the mani that sparked 100s of Instagram comments when I teased it. So happy it’s finally here.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/mulberry_slide_0.png",
+      "assets/images/mulberry_slide_1.png",
+      "assets/images/mulberry_slide_2.png",
+      "assets/images/mulberry_slide_3.png",
+      "assets/images/mulberry_slide_4.png",
+      "assets/images/mulberry_slide_5.jpg",
+      "assets/images/mulberry_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "pink-goldfish-gel",
+    "variantId": "42078603706410",
+    "name": "Pink Goldfish",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/pink-goldfish-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Iridescent",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286767658",
+    "colorDescription": "iridescent pink",
+    "finishType": "Iridescent Sheer",
+    "description": "A shimmery pink iridescent gel polish named by NJK, SGT’s daughter.\n\n“My dream pet is a goldfish that's pink.” -NJK\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/pink-goldfish_slide_0.png",
+      "assets/images/pink-goldfish_slide_1.png",
+      "assets/images/pink-goldfish_slide_2.png",
+      "assets/images/pink-goldfish_slide_3.png",
+      "assets/images/pink-goldfish_slide_4.jpg",
+      "assets/images/pink-goldfish_slide_5.jpg",
+      "assets/images/pink-goldfish_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "wild-orchid-gel",
+    "variantId": "42781627121706",
+    "name": "Wild Orchid",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/wild-orchid-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "Summer",
+    "productId": "7593191276586",
+    "colorDescription": "bright pinky magenta",
+    "finishType": "Creme Opaque",
+    "description": "A rich magenta purple with a wild side.\n\n“A bold magenta that’s the right dose of wild.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/wild-orchid_slide_0.png",
+      "assets/images/wild-orchid_slide_1.png",
+      "assets/images/wild-orchid_slide_2.png",
+      "assets/images/wild-orchid_slide_3.png",
+      "assets/images/wild-orchid_slide_4.png",
+      "assets/images/wild-orchid_slide_5.png",
+      "assets/images/wild-orchid_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "e-m-gel",
+    "variantId": "42078603640874",
+    "name": "E+M",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/e-m-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Creme",
+    "undertone": "Neutral",
+    "season": "",
+    "productId": "7463286702122",
+    "colorDescription": "inky black",
+    "finishType": "Creme Opaque",
+    "description": "A highly pigmented deep black gel polish.\n\n\"E+M is named after Emily & Meritt, stylists, designers, and co-founders of The Great. I live in their clothing - it’s so comfy, so chic, and always fits just-right. Our classic black polish and this iconic duo seemed like a perfect match.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/e-m_slide_0.png",
+      "assets/images/e-m_slide_1.png",
+      "assets/images/e-m_slide_2.png",
+      "assets/images/e-m_slide_3.png",
+      "assets/images/e-m_slide_4.jpg",
+      "assets/images/e-m_slide_5.jpg",
+      "assets/images/e-m_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "hd-gel",
+    "variantId": "42076564127786",
+    "name": "HD",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/hd-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Pastels",
+    "undertone": "Neutral",
+    "season": "",
+    "productId": "7462874677290",
+    "colorDescription": "crisp white",
+    "finishType": "Pastels Opaque",
+    "description": "A clean, crisp white gel polish with just a touch of softness that pops against all skin tones. Fresher than fresh.\n\n\"HD is named after Haylie Duff. She's the sister I've always wanted! She lives for a white mani so this polish had to be hers.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/hd_slide_0.png",
+      "assets/images/hd_slide_1.png",
+      "assets/images/hd_slide_2.png",
+      "assets/images/hd_slide_3.png",
+      "assets/images/hd_slide_4.png",
+      "assets/images/hd_slide_5.jpg",
+      "assets/images/hd_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "aced-it-gel",
+    "variantId": "42781625221162",
+    "name": "Aced It",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/aced-it-gel",
+    "isNew": false,
+    "color": "Greens",
+    "color_kind": "Sheers",
+    "undertone": "Cool",
+    "season": "Summer",
+    "productId": "7593190981674",
+    "colorDescription": "cool pastel green",
+    "finishType": "Sheers Opaque",
+    "description": "A cool pastel green for a sweet mani that always gets it right.\n\n“If only I could use Poppy for my backhand. Then I’d always Ace It.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/aced-it_slide_0.png",
+      "assets/images/aced-it_slide_1.png",
+      "assets/images/aced-it_slide_2.png",
+      "assets/images/aced-it_slide_3.png",
+      "assets/images/aced-it_slide_4.png",
+      "assets/images/aced-it_slide_5.png",
+      "assets/images/aced-it_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "fiddlefig-gel",
+    "variantId": "42078603903018",
+    "name": "Fiddlefig",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/fiddlefig-gel",
+    "isNew": false,
+    "color": "Greens",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286964266",
+    "colorDescription": "leafy green",
+    "finishType": "Creme Opaque",
+    "description": "A deep leafy green gel polish for fabulously fresh moody manis.\n\n“Finally - a fiddleleaf fig that stays perfectly dark green and I never have to remember to water it.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/fiddlefig_slide_0.png",
+      "assets/images/fiddlefig_slide_1.png",
+      "assets/images/fiddlefig_slide_2.png",
+      "assets/images/fiddlefig_slide_3.png",
+      "assets/images/fiddlefig_slide_4.jpg",
+      "assets/images/fiddlefig_slide_5.jpg",
+      "assets/images/fiddlefig_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "olive-yall-gel",
+    "variantId": "42616379834410",
+    "name": "Olive Y'all",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/olive-yall-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Iridescent",
+    "undertone": "Warm",
+    "season": "Spring",
+    "productId": "7552367198250",
+    "colorDescription": "iridescent pink sheer",
+    "finishType": "Iridescent Sheer",
+    "description": "A sheer bubble gum pink-blue iridescent shade that you can’t help but adore.\n\n“Olive Y’all! This is a sheer goldfish vibe with a bigger punch of pink.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/olive-y-all_slide_0.png",
+      "assets/images/olive-y-all_slide_1.png",
+      "assets/images/olive-y-all_slide_2.png",
+      "assets/images/olive-y-all_slide_3.png",
+      "assets/images/olive-y-all_slide_4.jpg",
+      "assets/images/olive-y-all_slide_5.jpg",
+      "assets/images/olive-y-all_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "your-mani-looks-so-good-in-those-jeans-gel",
+        "color": "#354a9e"
+      },
+      {
+        "id": "olive-yall-gel",
+        "color": "#dcc8e4"
+      },
+      {
+        "id": "rodeo-queen-gel",
+        "color": "#ed2b4e"
+      }
+    ]
+  },
+  {
+    "id": "atlas-gel",
+    "variantId": "42078603739178",
+    "name": "Atlas",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/atlas-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Iridescent",
+    "undertone": "Neutral",
+    "season": "Winter",
+    "productId": "7463286800426",
+    "colorDescription": "pearly white",
+    "finishType": "Iridescent Sheer",
+    "description": "A pearly white gel polish that great love stories are made of.\n\n“This was the shade that made me want to try layering polish. Y’all are going to love this one.” - COHO\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/atlas_slide_0.png",
+      "assets/images/atlas_slide_1.png",
+      "assets/images/atlas_slide_2.png",
+      "assets/images/atlas_slide_3.png",
+      "assets/images/atlas_slide_4.jpg",
+      "assets/images/atlas_slide_5.jpg",
+      "assets/images/atlas_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "plaza-gel",
+    "variantId": "42078603870250",
+    "name": "Plaza",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/plaza-gel",
+    "isNew": false,
+    "color": "Purples",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7463286931498",
+    "colorDescription": "deep purple",
+    "finishType": "Creme Opaque",
+    "description": "A deep mulberry purple gel polish for 5-star luxury manis.\n\n“When I think of New York, I instantly think of deep, rich colors like this one.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/plaza_slide_0.png",
+      "assets/images/plaza_slide_1.png",
+      "assets/images/plaza_slide_2.png",
+      "assets/images/plaza_slide_3.png",
+      "assets/images/plaza_slide_4.jpg",
+      "assets/images/plaza_slide_5.jpg",
+      "assets/images/plaza_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "cct-gel",
+    "variantId": "42078603771946",
+    "name": "CCT",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/cct-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Pastels",
+    "undertone": "Neutral",
+    "season": "",
+    "productId": "7463286833194",
+    "colorDescription": "sheer pink",
+    "finishType": "Pastels Sheer",
+    "description": "A sheer pink gel polish that makes a soft, feminine statement.\n\n\"CCT is named after Cologne Trude, co-founder of Show Me Your Mumu. This pretty sheer pink is so effortless and feminine, just like her Mumu creations.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/cct_slide_0.png",
+      "assets/images/cct_slide_1.png",
+      "assets/images/cct_slide_2.png",
+      "assets/images/cct_slide_3.png",
+      "assets/images/cct_slide_4.jpg",
+      "assets/images/cct_slide_5.png",
+      "assets/images/cct_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "ld-gel",
+    "variantId": "42078603411498",
+    "name": "LD",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/ld-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286472746",
+    "colorDescription": "rose mauve",
+    "finishType": "Creme Opaque",
+    "description": "A rosy-hued neutral gel polish for a sweater-weather take on pink.\n\n“LD is named after Lauren Davis, a total O&J bestie. Her manis inspire us all. of. the. time! I knew this stunning mauve-y rose-y pink had to be LD as soon as I saw it.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/ld_slide_0.png",
+      "assets/images/ld_slide_1.png",
+      "assets/images/ld_slide_2.png",
+      "assets/images/ld_slide_3.png",
+      "assets/images/ld_slide_4.jpg",
+      "assets/images/ld_slide_5.png",
+      "assets/images/ld_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "kmc-gel",
+    "variantId": "42078603575338",
+    "name": "KMC",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/kmc-gel",
+    "isNew": false,
+    "color": "Greens",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "Spring",
+    "productId": "7463286636586",
+    "colorDescription": "pastel sage",
+    "finishType": "Creme Opaque",
+    "description": "A sage green gel polish that's your new favorite neutral.\n\n\"KMC is named after Kristen Caissie, founder of Moon Canyon. Her incredible florals make events feel magical - including my wedding!  A sage green straight out of a garden party was the right shade for her.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/kmc_slide_0.png",
+      "assets/images/kmc_slide_1.png",
+      "assets/images/kmc_slide_2.png",
+      "assets/images/kmc_slide_3.png",
+      "assets/images/kmc_slide_4.jpg",
+      "assets/images/kmc_slide_5.jpg",
+      "assets/images/kmc_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "petal-gel",
+    "variantId": "42723494101034",
+    "name": "Petal",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/petal-gel",
+    "isNew": false,
+    "color": "Purples",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "Spring",
+    "productId": "7576529895466",
+    "colorDescription": "",
+    "finishType": "Creme Opaque",
+    "description": "A bright floral purple with a touch of pink for nails that were born to bloom.\n\n“For when I really need to put the *petal* to the metal on spring vibes, I reach for this fab floral shade.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/petal_slide_0.png",
+      "assets/images/petal_slide_1.png",
+      "assets/images/petal_slide_2.png",
+      "assets/images/petal_slide_3.png",
+      "assets/images/petal_slide_4.png",
+      "assets/images/petal_slide_5.png",
+      "assets/images/petal_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "petal-gel",
+        "color": "#c971b4"
+      },
+      {
+        "id": "cdj-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "lhg-gel",
+        "color": "#baada6"
+      },
+      {
+        "id": "kag-gel",
+        "color": "#e1a890"
+      }
+    ]
+  },
+  {
+    "id": "rodeo-queen-gel",
+    "variantId": "42616378753066",
+    "name": "Rodeo Queen",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/rodeo-queen-gel",
+    "isNew": false,
+    "color": "Reds",
+    "color_kind": "Iridescent",
+    "undertone": "Warm",
+    "season": "Spring",
+    "productId": "7552366346282",
+    "colorDescription": "bright red shimmer",
+    "finishType": "Iridescent Opaque",
+    "description": "A bright pinky-red gel polish packed with silver shimmer that reigns supreme.\n\n“For instant fierce and fabulous Dolly vibes, only this red glitter will do.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/rodeo-queen_slide_0.png",
+      "assets/images/rodeo-queen_slide_1.png",
+      "assets/images/rodeo-queen_slide_2.png",
+      "assets/images/rodeo-queen_slide_3.png",
+      "assets/images/rodeo-queen_slide_4.jpg",
+      "assets/images/rodeo-queen_slide_5.jpg",
+      "assets/images/rodeo-queen_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "your-mani-looks-so-good-in-those-jeans-gel",
+        "color": "#354a9e"
+      },
+      {
+        "id": "olive-yall-gel",
+        "color": "#dcc8e4"
+      },
+      {
+        "id": "rodeo-queen-gel",
+        "color": "#ed2b4e"
+      }
+    ]
+  },
+  {
+    "id": "saltwater-taffy-gel",
+    "variantId": "42781622042666",
+    "name": "Saltwater Taffy",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/saltwater-taffy-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Sheers",
+    "undertone": "Warm",
+    "season": "Summer",
+    "productId": "7593189998634",
+    "colorDescription": "sweet sheer pink",
+    "finishType": "Sheers Sheer",
+    "description": "A deliciously pretty sheer pink shade that’s sweeter than candy.\n\n“Give me a bag of sweet salt water taffy and this mani and I’m good to go.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/saltwater-taffy_slide_0.png",
+      "assets/images/saltwater-taffy_slide_1.png",
+      "assets/images/saltwater-taffy_slide_2.png",
+      "assets/images/saltwater-taffy_slide_3.png",
+      "assets/images/saltwater-taffy_slide_4.png",
+      "assets/images/saltwater-taffy_slide_5.png",
+      "assets/images/saltwater-taffy_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "bold-unshaken-gel",
+    "variantId": "42078603477034",
+    "name": "Bold & Unshaken",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/bold-unshaken-gel",
+    "isNew": false,
+    "color": "Purples",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286538282",
+    "colorDescription": "bold purple",
+    "finishType": "Creme Opaque",
+    "description": "A bold purple gel polish that elevates every mood.\n\n\"If you need a reminder of how unique and special you are, this is it.\" XO SGT\n\n“Bold, fierce and unshaken, just like you!” XO NN\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/bold-unshaken_slide_0.png",
+      "assets/images/bold-unshaken_slide_1.png",
+      "assets/images/bold-unshaken_slide_2.png",
+      "assets/images/bold-unshaken_slide_3.png",
+      "assets/images/bold-unshaken_slide_4.jpg",
+      "assets/images/bold-unshaken_slide_5.jpg",
+      "assets/images/bold-unshaken_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "you-re-invited-gel",
+    "variantId": "42078603509802",
+    "name": "You're Invited",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/you-re-invited-gel",
+    "isNew": false,
+    "color": "Purples",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "Spring",
+    "productId": "7463286571050",
+    "colorDescription": "soft lavender",
+    "finishType": "Creme Opaque",
+    "description": "A playful lilac purple gel polish that always RSVPs yes.\n\n“I’ve lost count of how many times people have asked for a classic lavender. This shade is years in the making.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/you-re-invited_slide_0.png",
+      "assets/images/you-re-invited_slide_1.png",
+      "assets/images/you-re-invited_slide_2.png",
+      "assets/images/you-re-invited_slide_3.png",
+      "assets/images/you-re-invited_slide_4.png",
+      "assets/images/you-re-invited_slide_5.png",
+      "assets/images/you-re-invited_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "hz-gel",
+    "variantId": "42078604132394",
+    "name": "HZ",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/hz-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7463287193642",
+    "colorDescription": "dusty rose",
+    "finishType": "Creme Opaque",
+    "description": "A rosy toned neutral gel polish for a mani with a feminine edge.\n\n\"HZ is named after Heidi Zak, founder of ThirdLove, who blew us away with her immediate support of Olive & June, while running her own empire, no big deal! Naming a shade after such a badass CEO was meant to be.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/hz_slide_0.png",
+      "assets/images/hz_slide_1.png",
+      "assets/images/hz_slide_2.png",
+      "assets/images/hz_slide_3.png",
+      "assets/images/hz_slide_4.jpg",
+      "assets/images/hz_slide_5.jpg",
+      "assets/images/hz_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "bp-gel",
+    "variantId": "42078603542570",
+    "name": "BP",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/bp-gel",
+    "isNew": false,
+    "color": "Blues",
+    "color_kind": "Pastels",
+    "undertone": "Cool",
+    "season": "Spring",
+    "productId": "7463286603818",
+    "colorDescription": "icy blue",
+    "finishType": "Pastels Opaque",
+    "description": "The ideal, icy light blue gel polish. The pastel color our mani dreams are made of.\n\n\"BP is named after Barrett Prendergast who basically is mom / wife / friend / founder goals. She lives for a cool blue so we made this one just for her.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/bp_slide_0.png",
+      "assets/images/bp_slide_1.png",
+      "assets/images/bp_slide_2.png",
+      "assets/images/bp_slide_3.png",
+      "assets/images/bp_slide_4.jpg",
+      "assets/images/bp_slide_5.jpg",
+      "assets/images/bp_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "cosmic-silver-gel",
+    "variantId": "42078604066858",
+    "name": "Cosmic Silver",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/cosmic-silver-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Metallics Glitters",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463287128106",
+    "colorDescription": "silver metallic",
+    "finishType": "Metallics Glitters",
+    "description": "A silver metallic gel polish created to match the exact shade of Beats Studio Buds +.\n\n“Me in this metallic shade with my new beats studio buds in = I’m ready for anything.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/cosmic-silver_slide_0.png",
+      "assets/images/cosmic-silver_slide_1.png",
+      "assets/images/cosmic-silver_slide_2.png",
+      "assets/images/cosmic-silver_slide_3.png",
+      "assets/images/cosmic-silver_slide_4.jpg",
+      "assets/images/cosmic-silver_slide_5.png",
+      "assets/images/cosmic-silver_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "amethyst-velvet-gel",
+    "variantId": "42685371056170",
+    "name": "Amethyst Velvet",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/amethyst-velvet-gel",
+    "isNew": false,
+    "color": "Purples",
+    "color_kind": "Metallics Glitters",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7565289979946",
+    "colorDescription": "pastel lavender",
+    "finishType": "Metallics Glitters Opaque",
+    "description": "A pretty pastel lavender magnetic gel polish that’s perfectly purple.\n\n“Lavender has always been our go-to new neutral. It needed to be velvet!” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/amethyst-velvet_slide_0.png",
+      "assets/images/amethyst-velvet_slide_1.png",
+      "assets/images/amethyst-velvet_slide_2.png",
+      "assets/images/amethyst-velvet_slide_3.png",
+      "assets/images/amethyst-velvet_slide_4.jpg",
+      "assets/images/amethyst-velvet_slide_5.jpg",
+      "assets/images/amethyst-velvet_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "amethyst-velvet-gel",
+        "color": "#9e92af"
+      },
+      {
+        "id": "aqua-velvet-gel",
+        "color": "#9dcad5"
+      },
+      {
+        "id": "platinum-velvet-gel",
+        "color": "#999999"
+      },
+      {
+        "id": "golden-velvet-gel",
+        "color": "#c19a57"
+      }
+    ]
+  },
+  {
+    "id": "jj-gel",
+    "variantId": "42078603837482",
+    "name": "JJ",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/jj-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7463286898730",
+    "colorDescription": "cinnamon brown",
+    "finishType": "Creme Opaque",
+    "description": "A cozy cinnamon brown gel polish that has the just right amount of sweet and spicy.\n\n“JJ is named after Juliana Joel, who I met a few years ago in our salon and we’ve been friends ever since. This dreamy warm shade is so JJ’s style.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/jj_slide_0.png",
+      "assets/images/jj_slide_1.png",
+      "assets/images/jj_slide_2.png",
+      "assets/images/jj_slide_3.png",
+      "assets/images/jj_slide_4.jpg",
+      "assets/images/jj_slide_5.png",
+      "assets/images/jj_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "cdj-gel",
+    "variantId": "42723488628778",
+    "name": "CDJ",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/cdj-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Creme",
+    "undertone": "Neutral",
+    "season": "",
+    "productId": "7576529109034",
+    "colorDescription": "",
+    "finishType": "Creme Opaque",
+    "description": "Cool, creamy neutral that plays nice with all skin tones. Wear if you like compliments.\n\n\"CDJ is named after Caroline De Jean who is the ultimate O&J OG: booked the very first appointment at all three of our LA salons. I’ve had mani envy ever since!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/cdj_slide_0.png",
+      "assets/images/cdj_slide_1.png",
+      "assets/images/cdj_slide_2.png",
+      "assets/images/cdj_slide_3.png",
+      "assets/images/cdj_slide_4.png",
+      "assets/images/cdj_slide_5.png",
+      "assets/images/cdj_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "petal-gel",
+        "color": "#c971b4"
+      },
+      {
+        "id": "cdj-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "lhg-gel",
+        "color": "#baada6"
+      },
+      {
+        "id": "kag-gel",
+        "color": "#e1a890"
+      }
+    ]
+  },
+  {
+    "id": "lhg-gel",
+    "variantId": "42723499442218",
+    "name": "LHG",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/lhg-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "Spring",
+    "productId": "7576530878506",
+    "colorDescription": "",
+    "finishType": "Creme Opaque",
+    "description": "A fresh grey neutral with the most subtle hint of pink.\n\n“Libby is all about a neutral mani year-round, and the splash of pinky-grey is too pretty.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/lhg_slide_0.png",
+      "assets/images/lhg_slide_1.png",
+      "assets/images/lhg_slide_2.png",
+      "assets/images/lhg_slide_3.png",
+      "assets/images/lhg_slide_4.png",
+      "assets/images/lhg_slide_5.png",
+      "assets/images/lhg_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "petal-gel",
+        "color": "#c971b4"
+      },
+      {
+        "id": "cdj-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "lhg-gel",
+        "color": "#baada6"
+      },
+      {
+        "id": "kag-gel",
+        "color": "#e1a890"
+      }
+    ]
+  },
+  {
+    "id": "cs-gel",
+    "variantId": "42078603280426",
+    "name": "CS",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/cs-gel",
+    "isNew": false,
+    "color": "Oranges",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "Spring",
+    "productId": "7463286341674",
+    "colorDescription": "floral coral",
+    "finishType": "Creme Opaque",
+    "description": "This floral coral gel polish is petal-soft peachy perfection.\n\n\"CS is named after Christina Stembel, the founder of Farmgirl Flowers. Nothing makes me happier than fresh flowers and this perfect peach is totally inspired by her beautiful blooms.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/cs_slide_0.png",
+      "assets/images/cs_slide_1.png",
+      "assets/images/cs_slide_2.png",
+      "assets/images/cs_slide_3.png",
+      "assets/images/cs_slide_4.jpg",
+      "assets/images/cs_slide_5.png",
+      "assets/images/cs_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "kag-gel",
+    "variantId": "42723490267178",
+    "name": "KAG",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/kag-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Creme",
+    "undertone": "Warm",
+    "season": "Spring",
+    "productId": "7576529403946",
+    "colorDescription": "",
+    "finishType": "Creme Opaque",
+    "description": "A neutral peachy pink that takes you from the sand to a Stoney Clover near you.\n\n“When I first met Kendall in LA, we immediately started dreaming up this peachy pink hue and we nailed it.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/kag_slide_0.png",
+      "assets/images/kag_slide_1.png",
+      "assets/images/kag_slide_2.png",
+      "assets/images/kag_slide_3.png",
+      "assets/images/kag_slide_4.png",
+      "assets/images/kag_slide_5.png",
+      "assets/images/kag_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "petal-gel",
+        "color": "#c971b4"
+      },
+      {
+        "id": "cdj-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "lhg-gel",
+        "color": "#baada6"
+      },
+      {
+        "id": "kag-gel",
+        "color": "#e1a890"
+      }
+    ]
+  },
+  {
+    "id": "aqua-velvet-gel",
+    "variantId": "42685537845290",
+    "name": "Aqua Velvet",
+    "price": "$13",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/aqua-velvet-gel",
+    "isNew": false,
+    "color": "Blues",
+    "color_kind": "Metallics Glitters",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7565299777578",
+    "colorDescription": "pastel blue",
+    "finishType": "Metallics Glitters Opaque",
+    "description": "A bright pastel blue magnetic gel polish.\n\n“This is the dreamiest, happiest blue that makes me wanna dive right in. ” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/aqua-velvet_slide_0.png",
+      "assets/images/aqua-velvet_slide_1.png",
+      "assets/images/aqua-velvet_slide_2.png",
+      "assets/images/aqua-velvet_slide_3.png",
+      "assets/images/aqua-velvet_slide_4.jpg",
+      "assets/images/aqua-velvet_slide_5.jpg",
+      "assets/images/aqua-velvet_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "amethyst-velvet-gel",
+        "color": "#9e92af"
+      },
+      {
+        "id": "aqua-velvet-gel",
+        "color": "#9dcad5"
+      },
+      {
+        "id": "platinum-velvet-gel",
+        "color": "#999999"
+      },
+      {
+        "id": "golden-velvet-gel",
+        "color": "#c19a57"
+      }
+    ]
+  },
+  {
+    "id": "permanent-vacation-gel",
+    "variantId": "42866556534826",
+    "name": "Permanent Vacation",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/permanent-vacation-gel",
+    "isNew": false,
+    "color": "Pinks",
+    "color_kind": "Brights",
+    "undertone": "Warm",
+    "season": "Summer",
+    "productId": "7620312924202",
+    "colorDescription": "bright pink",
+    "finishType": "Brights Opaque",
+    "description": "A bright pink that fades to a soft bubblegum after prolonged sun exposure.\n\n“My mind and my mani are on a permanent vacation as long as I’ve got this color on.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
+    "images": [
+      "assets/images/permanent-vacation_slide_0.png",
+      "assets/images/permanent-vacation_slide_1.png",
+      "assets/images/permanent-vacation_slide_2.png",
+      "assets/images/permanent-vacation_slide_3.png",
+      "assets/images/permanent-vacation_slide_4.png",
+      "assets/images/permanent-vacation_slide_5.png",
+      "assets/images/permanent-vacation_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "platinum-velvet-gel",
+    "variantId": "42685637427242",
+    "name": "Platinum Velvet",
+    "price": "$13",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/platinum-velvet-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Metallics Glitters",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7565302595626",
+    "colorDescription": "sheer silver",
+    "finishType": "Metallics Glitters Opaque",
+    "description": "A sheer silver shimmer magnetic polish that dazzles with sparkle.\n\n“For everyone who loves our velvet effect pressies - this is the gel secret!” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/platinum-velvet_slide_0.png",
+      "assets/images/platinum-velvet_slide_1.png",
+      "assets/images/platinum-velvet_slide_2.png",
+      "assets/images/platinum-velvet_slide_3.png",
+      "assets/images/platinum-velvet_slide_4.jpg",
+      "assets/images/platinum-velvet_slide_5.jpg",
+      "assets/images/platinum-velvet_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "amethyst-velvet-gel",
+        "color": "#9e92af"
+      },
+      {
+        "id": "aqua-velvet-gel",
+        "color": "#9dcad5"
+      },
+      {
+        "id": "platinum-velvet-gel",
+        "color": "#999999"
+      },
+      {
+        "id": "golden-velvet-gel",
+        "color": "#c19a57"
+      }
+    ]
+  },
+  {
+    "id": "golden-velvet-gel",
+    "variantId": "42685700997162",
+    "name": "Golden Velvet",
+    "price": "$13",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/golden-velvet-gel",
+    "isNew": false,
+    "color": "Neutrals",
+    "color_kind": "Metallics Glitters",
+    "undertone": "Warm",
+    "season": "",
+    "productId": "7565304430634",
+    "colorDescription": "sheer gold",
+    "finishType": "Metallics Glitters Opaque",
+    "description": "A sheer golden bronze magnetic polish with magical metallic depth.\n\n“Catch me staring at my nails all day whenever I wear this on top of my gel mani.” XO SGT\n\nHow to create effects:\nVelvet Effect: Wave the rectangular side of the wand over each nail for an all-over shimmering velvet effect.\n\nCateye Effect: Place your finger over the rectangular side of the magnet while you paint\n\nFrench Tip: Place your finger over the magnet while you paint the top with magnetic polish.\n\nCircle Effect: Hold the circular end of the magnet over your nail immediately after painting\n\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/golden-velvet_slide_0.png",
+      "assets/images/golden-velvet_slide_1.png",
+      "assets/images/golden-velvet_slide_2.png",
+      "assets/images/golden-velvet_slide_3.png",
+      "assets/images/golden-velvet_slide_4.jpg",
+      "assets/images/golden-velvet_slide_5.jpg",
+      "assets/images/golden-velvet_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "amethyst-velvet-gel",
+        "color": "#9e92af"
+      },
+      {
+        "id": "aqua-velvet-gel",
+        "color": "#9dcad5"
+      },
+      {
+        "id": "platinum-velvet-gel",
+        "color": "#999999"
+      },
+      {
+        "id": "golden-velvet-gel",
+        "color": "#c19a57"
+      }
+    ]
+  },
+  {
+    "id": "ooo-4eva-gel",
+    "variantId": "42866562138154",
+    "name": "OOO 4EVA",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/ooo-4eva-gel",
+    "isNew": false,
+    "color": "Oranges",
+    "color_kind": "Brights",
+    "undertone": "Warm",
+    "season": "Summer",
+    "productId": "7620314923050",
+    "colorDescription": "radiant tangerine",
+    "finishType": "Brights Opaque",
+    "description": "A radiant tangerine orange that glows and glows — you’ll want to wear it forever.\n\n“Hi! Thanks for your email, I’m actually OOO 4EVA wearing my dream orange gel.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
+    "images": [
+      "assets/images/ooo-4eva_slide_0.png",
+      "assets/images/ooo-4eva_slide_1.png",
+      "assets/images/ooo-4eva_slide_2.png",
+      "assets/images/ooo-4eva_slide_3.png",
+      "assets/images/ooo-4eva_slide_4.png",
+      "assets/images/ooo-4eva_slide_5.png",
+      "assets/images/ooo-4eva_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "wish-you-were-here-gel",
+    "variantId": "42866589040682",
+    "name": "Wish You Were Here",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/wish-you-were-here-gel",
+    "isNew": false,
+    "color": "Purples",
+    "color_kind": "Brights",
+    "undertone": "Cool",
+    "season": "Summer",
+    "productId": "7620331569194",
+    "colorDescription": "ultravivid violet",
+    "finishType": "Brights Opaque",
+    "description": "An ultra vivid violet shade for pretty purple manis that feel like a postcard from paradise.\n\n“Wish all the besties were matching with me in bright purple manis.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
+    "images": [
+      "assets/images/wish-you-were-here_slide_0.png",
+      "assets/images/wish-you-were-here_slide_1.png",
+      "assets/images/wish-you-were-here_slide_2.png",
+      "assets/images/wish-you-were-here_slide_3.png",
+      "assets/images/wish-you-were-here_slide_4.png",
+      "assets/images/wish-you-were-here_slide_5.png",
+      "assets/images/wish-you-were-here_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "cancel-my-return-flight-gel",
+    "variantId": "42866587009066",
+    "name": "Cancel My Return Flight",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/cancel-my-return-flight-gel",
+    "isNew": false,
+    "color": "Greens",
+    "color_kind": "Brights",
+    "undertone": "Cool",
+    "season": "Summer",
+    "productId": "7620330258474",
+    "colorDescription": "electric lime",
+    "finishType": "Brights Opaque",
+    "description": "A nearly-neon electric lime shade for nails you’ll never want to leave.\n\n“This polish name is inspired by me, anytime I go on vacay anywhere.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
+    "images": [
+      "assets/images/cancel-my-return-flight_slide_0.png",
+      "assets/images/cancel-my-return-flight_slide_1.png",
+      "assets/images/cancel-my-return-flight_slide_2.png",
+      "assets/images/cancel-my-return-flight_slide_3.png",
+      "assets/images/cancel-my-return-flight_slide_4.png",
+      "assets/images/cancel-my-return-flight_slide_5.png",
+      "assets/images/cancel-my-return-flight_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "time-to-re-apply-gel",
+    "variantId": "42866565414954",
+    "name": "Time To Re-apply",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/time-to-re-apply-gel",
+    "isNew": false,
+    "color": "Yellows",
+    "color_kind": "Brights",
+    "undertone": "Cool",
+    "season": "Summer",
+    "productId": "7620316692522",
+    "colorDescription": "day-glow yellow green",
+    "finishType": "Brights Opaque",
+    "description": "A day-glow bright yellow green shade that’s so bright, you’ll need sunglasses.\n\n“How did we bottle electricity with this shade? Instant party.” XO SGT\n\nLike your tan, these shades fade. Our gel brights have cleaner, nearly-neon pigments that fade over time.",
+    "images": [
+      "assets/images/time-to-re-apply_slide_0.png",
+      "assets/images/time-to-re-apply_slide_1.png",
+      "assets/images/time-to-re-apply_slide_2.png",
+      "assets/images/time-to-re-apply_slide_3.png",
+      "assets/images/time-to-re-apply_slide_4.png",
+      "assets/images/time-to-re-apply_slide_5.png",
+      "assets/images/time-to-re-apply_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "saltwater-taffy-gel",
+        "color": "#f0c6d8"
+      },
+      {
+        "id": "wild-orchid-gel",
+        "color": "#b2426e"
+      },
+      {
+        "id": "permanent-vacation-gel",
+        "color": "#f0a1ea"
+      },
+      {
+        "id": "aced-it-gel",
+        "color": "#ade0bb"
+      },
+      {
+        "id": "ooo-4eva-gel",
+        "color": "#ee8444"
+      },
+      {
+        "id": "wish-you-were-here-gel",
+        "color": "#7d61bf"
+      },
+      {
+        "id": "cancel-my-return-flight-gel",
+        "color": "#89d160"
+      },
+      {
+        "id": "time-to-re-apply-gel",
+        "color": "#d8e379"
+      }
+    ]
+  },
+  {
+    "id": "field-day-gel",
+    "variantId": "",
+    "name": "Field Day",
+    "price": "",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/field-day-gel",
+    "isNew": false,
+    "color": "",
+    "color_kind": "",
+    "undertone": "",
+    "season": "",
+    "productId": "7576530321450",
+    "colorDescription": "",
+    "finishType": "Creme Opaque",
+    "description": "A juicy watermelon red that is always here for a good time.\n\n\"My kind of summer red, perfect for sunny afternoons in the grass!” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/field-day_slide_0.png",
+      "assets/images/field-day_slide_1.png",
+      "assets/images/field-day_slide_2.png",
+      "assets/images/field-day_slide_3.png",
+      "assets/images/field-day_slide_4.png",
+      "assets/images/field-day_slide_5.png",
+      "assets/images/field-day_slide_6.png"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "petal-gel",
+        "color": "#c971b4"
+      },
+      {
+        "id": "cdj-gel",
+        "color": "#a99087"
+      },
+      {
+        "id": "lhg-gel",
+        "color": "#baada6"
+      },
+      {
+        "id": "kag-gel",
+        "color": "#e1a890"
+      }
     ]
   }
 ]
