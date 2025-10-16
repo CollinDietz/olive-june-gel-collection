@@ -13,6 +13,7 @@ class NailPolish {
   final String productId;
   final String description;
   final List<String> images;
+  final String thumbNailImage;
 
   NailPolish({
     required this.variantId,
@@ -29,6 +30,7 @@ class NailPolish {
     required this.productId,
     required this.description,
     required this.images,
+    required this.thumbNailImage,
   });
 
   factory NailPolish.fromJson(Map<String, dynamic> json) {
@@ -46,6 +48,7 @@ class NailPolish {
       season: json['season'] ?? '',
       productId: json['productId'] ?? '',
       description: json['description'] ?? '',
+      thumbNailImage: json['thumbNailImage'] ?? '',
       images: List<String>.from(json['images'] ?? []),
     );
   }

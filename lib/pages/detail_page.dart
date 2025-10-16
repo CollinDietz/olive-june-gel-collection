@@ -65,14 +65,19 @@ class DetailPage extends StatelessWidget {
 
     final imageCarousel = ImageCarousel(nailPolish: polish);
 
-    final descriptionCard = Card(
-      child: Padding(
-        padding: const EdgeInsets.all(22.0),
-        child: Text(
-          polish.description,
-          style: const TextStyle(fontSize: 16),
+    final descriptionCard = Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(22.0),
+            child: Text(
+              polish.description,
+              style: const TextStyle(fontSize: 16),
+            ),
+          ),
         ),
-      ),
+      ],
     );
 
     Widget buildPolishInfo(String label, String value) {

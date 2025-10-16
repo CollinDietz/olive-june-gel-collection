@@ -15,7 +15,7 @@ class PolishGridCard extends StatelessWidget {
         children: [
           Expanded(
             child: Image(
-              image: AssetImage(nailPolish.images[0]),
+              image: AssetImage(nailPolish.thumbNailImage),
               fit: BoxFit.cover,
             ),
           ),

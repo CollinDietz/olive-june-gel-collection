@@ -33,7 +33,7 @@ class _ImageCarouselState extends State<ImageCarousel> {
       children: [
         Center(
           child: SizedBox(
-            height: 300,
+            height: 600,
             child: PageView.builder(
               controller: _pageController,
               itemCount: widget.nailPolish.images.length,
