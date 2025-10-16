@@ -23,6 +23,7 @@
       "assets/images/on-the-promenade_slide_5.png",
       "assets/images/on-the-promenade_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/on-the-promenade_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "on-the-promenade-gel",
@@ -70,6 +71,7 @@
       "assets/images/cn_slide_5.png",
       "assets/images/cn_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/cn_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "on-the-promenade-gel",
@@ -117,6 +119,7 @@
       "assets/images/boysenberry-glass_slide_5.png",
       "assets/images/boysenberry-glass_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/boysenberry-glass_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "on-the-promenade-gel",
@@ -164,6 +167,7 @@
       "assets/images/jg_slide_5.png",
       "assets/images/jg_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/jg_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "on-the-promenade-gel",
@@ -211,6 +215,7 @@
       "assets/images/sd_slide_5.png",
       "assets/images/sd_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/sd_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "on-the-promenade-gel",
@@ -258,6 +263,7 @@
       "assets/images/slate_slide_5.png",
       "assets/images/slate_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/slate_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "slate-gel",
@@ -313,6 +319,7 @@
       "assets/images/fawn_slide_5.png",
       "assets/images/fawn_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/fawn_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "slate-gel",
@@ -368,6 +375,7 @@
       "assets/images/covet_slide_5.png",
       "assets/images/covet_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/covet_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "covet-gel",
@@ -419,6 +427,7 @@
       "assets/images/goal-getter_slide_5.png",
       "assets/images/goal-getter_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/goal-getter_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "covet-gel",
@@ -470,6 +479,7 @@
       "assets/images/still-life-of-flowers_slide_5.png",
       "assets/images/still-life-of-flowers_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/still-life-of-flowers_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "covet-gel",
@@ -521,6 +531,7 @@
       "assets/images/aw_slide_5.png",
       "assets/images/aw_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/aw_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "covet-gel",
@@ -572,6 +583,7 @@
       "assets/images/dream-job_slide_5.png",
       "assets/images/dream-job_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/dream-job_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "covet-gel",
@@ -623,6 +635,7 @@
       "assets/images/sculpture-wing_slide_5.png",
       "assets/images/sculpture-wing_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/sculpture-wing_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "covet-gel",
@@ -671,6 +684,7 @@
       "assets/images/peel-off-base-coat_slide_2.png",
       "assets/images/peel-off-base-coat_slide_3.png"
     ],
+    "thumbNailImage": "assets/images/peel-off-base-coat_thumbnail_0.jpg",
     "relatedCollectionPolishes": []
   },
   {
@@ -694,6 +708,7 @@
       "assets/images/gel-base-coat_slide_2.png",
       "assets/images/gel-base-coat_slide_3.png"
     ],
+    "thumbNailImage": "assets/images/gel-base-coat_thumbnail_0.jpg",
     "relatedCollectionPolishes": []
   },
   {
@@ -1253,145 +1268,6 @@
     ]
   },
   {
-    "id": "cv-gel",
-    "variantId": "42078603378730",
-    "name": "CV",
-    "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/cv-gel",
-    "isNew": false,
-    "color": "Reds",
-    "color_kind": "Creme",
-    "undertone": "Warm",
-    "season": "",
-    "productId": "7463286439978",
-    "colorDescription": "cherry red",
-    "finishType": "Creme Opaque",
-    "description": "A color-forward cherry red gel polish.\n\n\"CV is named after Clare Vivier, founder of Clare V: Her bags are one of my favorite ways to treat myself - I must own at least ten! A bright red shade that feels classic but fun - just like her brand.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
-    "images": [
-      "assets/images/cv_slide_0.png",
-      "assets/images/cv_slide_1.png",
-      "assets/images/cv_slide_2.png",
-      "assets/images/cv_slide_3.png",
-      "assets/images/cv_slide_4.jpg",
-      "assets/images/cv_slide_5.png",
-      "assets/images/cv_slide_6.png"
-    ],
-    "relatedCollectionPolishes": [
-      {
-        "id": "the-queen-takes-her-tea-with-milk-gel",
-        "color": "#ead8cf"
-      },
-      {
-        "id": "suited-gel",
-        "color": "#54556b"
-      },
-      {
-        "id": "vintage-gel",
-        "color": "#BAC1CD"
-      },
-      {
-        "id": "shacket-gel",
-        "color": "#ab827c"
-      },
-      {
-        "id": "cv-gel",
-        "color": "#C5293B"
-      },
-      {
-        "id": "obsessed-gel",
-        "color": "#70414c"
-      },
-      {
-        "id": "xoxo-gel",
-        "color": "#e77693"
-      },
-      {
-        "id": "icing-is-the-best-part-gel",
-        "color": "#ffffff"
-      },
-      {
-        "id": "gh-gel",
-        "color": "#f9eee8"
-      },
-      {
-        "id": "mulberry-gel",
-        "color": "#854662"
-      },
-      {
-        "id": "prom-gel",
-        "color": "#eda5bd"
-      },
-      {
-        "id": "pink-goldfish-gel",
-        "color": "#e9d6ea"
-      },
-      {
-        "id": "e-m-gel",
-        "color": "#000000"
-      },
-      {
-        "id": "hd-gel",
-        "color": "#ffffff"
-      },
-      {
-        "id": "dancing-green-gel",
-        "color": "#4a5b6f"
-      },
-      {
-        "id": "fiddlefig-gel",
-        "color": "#265243"
-      },
-      {
-        "id": "atlas-gel",
-        "color": "#fff"
-      },
-      {
-        "id": "cct-gel",
-        "color": "#F1E2E0"
-      },
-      {
-        "id": "plaza-gel",
-        "color": "#6A324B"
-      },
-      {
-        "id": "ld-gel",
-        "color": "#ba797e"
-      },
-      {
-        "id": "kmc-gel",
-        "color": "#e6ede8"
-      },
-      {
-        "id": "you-re-invited-gel",
-        "color": "#efe9f1"
-      },
-      {
-        "id": "bold-unshaken-gel",
-        "color": "#c7bae7"
-      },
-      {
-        "id": "bp-gel",
-        "color": "#f3f8ff"
-      },
-      {
-        "id": "hz-gel",
-        "color": "#f5e2de"
-      },
-      {
-        "id": "jj-gel",
-        "color": "#98665d"
-      },
-      {
-        "id": "cosmic-silver-gel",
-        "color": "#cbc6c3"
-      },
-      {
-        "id": "cs-gel",
-        "color": "#f7dfce"
-      }
-    ]
-  },
-  {
     "id": "dancing-green-gel",
     "variantId": "42078604001322",
     "name": "Dancing Green",
@@ -1531,28 +1407,28 @@
     ]
   },
   {
-    "id": "obsessed-gel",
-    "variantId": "42078603444266",
-    "name": "Obsessed",
+    "id": "cv-gel",
+    "variantId": "42078603378730",
+    "name": "CV",
     "price": "$12",
-    "url": "https://oliveandjune.com/collections/gel-polish/products/obsessed-gel",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/cv-gel",
     "isNew": false,
     "color": "Reds",
     "color_kind": "Creme",
-    "undertone": "Cool",
+    "undertone": "Warm",
     "season": "",
-    "productId": "7463286505514",
-    "colorDescription": "deep ruby",
+    "productId": "7463286439978",
+    "colorDescription": "cherry red",
     "finishType": "Creme Opaque",
-    "description": "A dark ruby gel polish for a rich red mani.\n\n“This deep, dark red makes me feel ready for anything.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "description": "A color-forward cherry red gel polish.\n\n\"CV is named after Clare Vivier, founder of Clare V: Her bags are one of my favorite ways to treat myself - I must own at least ten! A bright red shade that feels classic but fun - just like her brand.\" XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
     "images": [
-      "assets/images/obsessed_slide_0.png",
-      "assets/images/obsessed_slide_1.png",
-      "assets/images/obsessed_slide_2.png",
-      "assets/images/obsessed_slide_3.png",
-      "assets/images/obsessed_slide_4.png",
-      "assets/images/obsessed_slide_5.png",
-      "assets/images/obsessed_slide_6.jpg"
+      "assets/images/cv_slide_0.png",
+      "assets/images/cv_slide_1.png",
+      "assets/images/cv_slide_2.png",
+      "assets/images/cv_slide_3.png",
+      "assets/images/cv_slide_4.jpg",
+      "assets/images/cv_slide_5.png",
+      "assets/images/cv_slide_6.png"
     ],
     "relatedCollectionPolishes": [
       {
@@ -1692,6 +1568,145 @@
       "assets/images/shacket_slide_4.png",
       "assets/images/shacket_slide_5.jpg",
       "assets/images/shacket_slide_6.jpg"
+    ],
+    "relatedCollectionPolishes": [
+      {
+        "id": "the-queen-takes-her-tea-with-milk-gel",
+        "color": "#ead8cf"
+      },
+      {
+        "id": "suited-gel",
+        "color": "#54556b"
+      },
+      {
+        "id": "vintage-gel",
+        "color": "#BAC1CD"
+      },
+      {
+        "id": "shacket-gel",
+        "color": "#ab827c"
+      },
+      {
+        "id": "cv-gel",
+        "color": "#C5293B"
+      },
+      {
+        "id": "obsessed-gel",
+        "color": "#70414c"
+      },
+      {
+        "id": "xoxo-gel",
+        "color": "#e77693"
+      },
+      {
+        "id": "icing-is-the-best-part-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "gh-gel",
+        "color": "#f9eee8"
+      },
+      {
+        "id": "mulberry-gel",
+        "color": "#854662"
+      },
+      {
+        "id": "prom-gel",
+        "color": "#eda5bd"
+      },
+      {
+        "id": "pink-goldfish-gel",
+        "color": "#e9d6ea"
+      },
+      {
+        "id": "e-m-gel",
+        "color": "#000000"
+      },
+      {
+        "id": "hd-gel",
+        "color": "#ffffff"
+      },
+      {
+        "id": "dancing-green-gel",
+        "color": "#4a5b6f"
+      },
+      {
+        "id": "fiddlefig-gel",
+        "color": "#265243"
+      },
+      {
+        "id": "atlas-gel",
+        "color": "#fff"
+      },
+      {
+        "id": "cct-gel",
+        "color": "#F1E2E0"
+      },
+      {
+        "id": "plaza-gel",
+        "color": "#6A324B"
+      },
+      {
+        "id": "ld-gel",
+        "color": "#ba797e"
+      },
+      {
+        "id": "kmc-gel",
+        "color": "#e6ede8"
+      },
+      {
+        "id": "you-re-invited-gel",
+        "color": "#efe9f1"
+      },
+      {
+        "id": "bold-unshaken-gel",
+        "color": "#c7bae7"
+      },
+      {
+        "id": "bp-gel",
+        "color": "#f3f8ff"
+      },
+      {
+        "id": "hz-gel",
+        "color": "#f5e2de"
+      },
+      {
+        "id": "jj-gel",
+        "color": "#98665d"
+      },
+      {
+        "id": "cosmic-silver-gel",
+        "color": "#cbc6c3"
+      },
+      {
+        "id": "cs-gel",
+        "color": "#f7dfce"
+      }
+    ]
+  },
+  {
+    "id": "obsessed-gel",
+    "variantId": "42078603444266",
+    "name": "Obsessed",
+    "price": "$12",
+    "url": "https://oliveandjune.com/collections/gel-polish/products/obsessed-gel",
+    "isNew": false,
+    "color": "Reds",
+    "color_kind": "Creme",
+    "undertone": "Cool",
+    "season": "",
+    "productId": "7463286505514",
+    "colorDescription": "deep ruby",
+    "finishType": "Creme Opaque",
+    "description": "A dark ruby gel polish for a rich red mani.\n\n“This deep, dark red makes me feel ready for anything.” XO SGT\n• Shiny and plump gel\n• Lasts up to 21 days\n• Drama-free non-damaging removal",
+    "images": [
+      "assets/images/obsessed_slide_0.png",
+      "assets/images/obsessed_slide_1.png",
+      "assets/images/obsessed_slide_2.png",
+      "assets/images/obsessed_slide_3.png",
+      "assets/images/obsessed_slide_4.png",
+      "assets/images/obsessed_slide_5.png",
+      "assets/images/obsessed_slide_6.jpg"
     ],
     "relatedCollectionPolishes": [
       {
@@ -2110,6 +2125,7 @@
       "assets/images/secret-recipe_slide_5.png",
       "assets/images/secret-recipe_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/secret-recipe_thumbnail_0.png",
     "relatedCollectionPolishes": []
   },
   {
@@ -2275,6 +2291,7 @@
       "assets/images/your-mani-looks-so-good-in-those-jeans_slide_5.jpg",
       "assets/images/your-mani-looks-so-good-in-those-jeans_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/your-mani-looks-so-good-in-those-jeans_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "your-mani-looks-so-good-in-those-jeans-gel",
@@ -2592,6 +2609,7 @@
       "assets/images/wild-orchid_slide_5.png",
       "assets/images/wild-orchid_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/wild-orchid_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -2929,6 +2947,7 @@
       "assets/images/aced-it_slide_5.png",
       "assets/images/aced-it_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/aced-it_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -3127,6 +3146,7 @@
       "assets/images/olive-y-all_slide_5.jpg",
       "assets/images/olive-y-all_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/olive-y-all_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "your-mani-looks-so-good-in-those-jeans-gel",
@@ -3861,6 +3881,7 @@
       "assets/images/petal_slide_5.png",
       "assets/images/petal_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/petal_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "petal-gel",
@@ -3904,6 +3925,7 @@
       "assets/images/rodeo-queen_slide_5.jpg",
       "assets/images/rodeo-queen_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/rodeo-queen_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "your-mani-looks-so-good-in-those-jeans-gel",
@@ -3943,6 +3965,7 @@
       "assets/images/saltwater-taffy_slide_5.png",
       "assets/images/saltwater-taffy_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/saltwater-taffy_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -4697,6 +4720,7 @@
       "assets/images/amethyst-velvet_slide_5.jpg",
       "assets/images/amethyst-velvet_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/amethyst-velvet_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "amethyst-velvet-gel",
@@ -4879,6 +4903,7 @@
       "assets/images/cdj_slide_5.png",
       "assets/images/cdj_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/cdj_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "petal-gel",
@@ -4922,6 +4947,7 @@
       "assets/images/lhg_slide_5.png",
       "assets/images/lhg_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/lhg_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "petal-gel",
@@ -5104,6 +5130,7 @@
       "assets/images/kag_slide_5.png",
       "assets/images/kag_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/kag_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "petal-gel",
@@ -5147,6 +5174,7 @@
       "assets/images/aqua-velvet_slide_5.jpg",
       "assets/images/aqua-velvet_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/aqua-velvet_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "amethyst-velvet-gel",
@@ -5190,6 +5218,7 @@
       "assets/images/permanent-vacation_slide_5.png",
       "assets/images/permanent-vacation_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/permanent-vacation_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -5249,6 +5278,7 @@
       "assets/images/platinum-velvet_slide_5.jpg",
       "assets/images/platinum-velvet_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/platinum-velvet_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "amethyst-velvet-gel",
@@ -5292,6 +5322,7 @@
       "assets/images/golden-velvet_slide_5.jpg",
       "assets/images/golden-velvet_slide_6.jpg"
     ],
+    "thumbNailImage": "assets/images/golden-velvet_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "amethyst-velvet-gel",
@@ -5335,6 +5366,7 @@
       "assets/images/ooo-4eva_slide_5.png",
       "assets/images/ooo-4eva_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/ooo-4eva_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -5394,6 +5426,7 @@
       "assets/images/wish-you-were-here_slide_5.png",
       "assets/images/wish-you-were-here_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/wish-you-were-here_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -5453,6 +5486,7 @@
       "assets/images/cancel-my-return-flight_slide_5.png",
       "assets/images/cancel-my-return-flight_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/cancel-my-return-flight_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -5512,6 +5546,7 @@
       "assets/images/time-to-re-apply_slide_5.png",
       "assets/images/time-to-re-apply_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/time-to-re-apply_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "saltwater-taffy-gel",
@@ -5571,6 +5606,7 @@
       "assets/images/field-day_slide_5.png",
       "assets/images/field-day_slide_6.png"
     ],
+    "thumbNailImage": "assets/images/field-day_thumbnail_0.png",
     "relatedCollectionPolishes": [
       {
         "id": "petal-gel",
