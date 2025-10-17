@@ -30,7 +30,10 @@ class _PolishGridState extends State<PolishGrid> {
             onTap: () => Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (_) => DetailPage(polish: polish),
+                    builder: (_) => DetailPage(
+                      polish: polish,
+                      polishCollection: widget.collection,
+                    ),
                   ),
                 ),
             child: PolishGridCard(nailPolish: polish));

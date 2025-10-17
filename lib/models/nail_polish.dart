@@ -1,4 +1,22 @@
+class RelatedPolish {
+  final String id;
+  final String color;
+
+  RelatedPolish({
+    required this.id,
+    required this.color,
+  });
+
+  factory RelatedPolish.fromJson(Map<String, dynamic> json) {
+    return RelatedPolish(
+      id: json['id'] ?? '',
+      color: json['color'] ?? '',
+    );
+  }
+}
+
 class NailPolish {
+  final String id;
   final String variantId;
   final String name;
   final String price;
@@ -14,8 +32,10 @@ class NailPolish {
   final String description;
   final List<String> images;
   final String thumbNailImage;
+  final List<RelatedPolish> relatedCollectionPolishes;
 
   NailPolish({
+    required this.id,
     required this.variantId,
     required this.name,
     required this.price,
@@ -30,11 +50,13 @@ class NailPolish {
     required this.productId,
     required this.description,
     required this.images,
+    required this.relatedCollectionPolishes,
     required this.thumbNailImage,
   });
 
   factory NailPolish.fromJson(Map<String, dynamic> json) {
     return NailPolish(
+      id: json['id'] ?? '',
       variantId: json['variantId'] ?? '',
       name: json['name'] ?? '',
       price: json['price'] ?? '',
@@ -50,6 +72,10 @@ class NailPolish {
       description: json['description'] ?? '',
       thumbNailImage: json['thumbNailImage'] ?? '',
       images: List<String>.from(json['images'] ?? []),
+      relatedCollectionPolishes:
+          (json['relatedCollectionPolishes'] as List<dynamic>? ?? [])
+              .map((e) => RelatedPolish.fromJson(e as Map<String, dynamic>))
+              .toList(),
     );
   }
 }

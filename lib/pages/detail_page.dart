@@ -1,20 +1,24 @@
 import 'package:flutter/material.dart';
 import 'package:olive_june_gel_collection/models/nail_polish.dart';
+import 'package:olive_june_gel_collection/models/nail_polish_collection.dart';
 import 'package:olive_june_gel_collection/widgets/image_carousel.dart';
+import 'package:olive_june_gel_collection/widgets/polish_grid.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class DetailPage extends StatelessWidget {
+  final NailPolishCollection polishCollection;
   final NailPolish polish;
 
   const DetailPage({
     required this.polish,
+    required this.polishCollection,
     super.key,
   });
 
   @override
   Widget build(BuildContext context) {
     final screenWidth = MediaQuery.of(context).size.width;
-    final isMobile = screenWidth < 600;
+    final isMobile = screenWidth < 800;
 
     final title = Padding(
       padding: const EdgeInsets.all(8.0),
@@ -118,6 +122,24 @@ class DetailPage extends StatelessWidget {
       ),
     );
 
+    const relatedPolishesSubheading = Padding(
+      padding: EdgeInsets.symmetric(horizontal: 8.0),
+      child: Text(
+        "Polishes In This Collection",
+        style: TextStyle(
+          fontSize: 18,
+        ),
+      ),
+    );
+
+    final relatedPolishes = Container(
+      constraints: const BoxConstraints(maxHeight: 600),
+      child: PolishGrid(
+        collection: NailPolishCollection.fromCollectionWithRelated(
+            polishCollection, polish.relatedCollectionPolishes),
+      ),
+    );
+
     return Scaffold(
       appBar: AppBar(
         title: const Text("Olive & June Gel Polish Collection Tracker"),
@@ -131,48 +153,71 @@ class DetailPage extends StatelessWidget {
                   viewOnOliveAndJune,
                   imageCarousel,
                   descriptionCard,
-                  colorCard
+                  colorCard,
+                  relatedPolishesSubheading,
+                  relatedPolishes,
                 ],
               ),
             )
-          : Padding(
-              padding: const EdgeInsets.all(24),
-              child: Column(
-                children: [
-                  IntrinsicHeight(
-                    child: Row(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        const Expanded(flex: 1, child: SizedBox()),
-                        Expanded(
-                            flex: 3,
-                            child: Container(
-                                alignment: Alignment.topCenter,
-                                child: imageCarousel)),
-                        Expanded(
-                            flex: 2,
-                            child: Container(
-                                alignment: Alignment.topCenter,
-                                child: Column(
-                                  crossAxisAlignment:
-                                      CrossAxisAlignment.stretch,
-                                  children: [
-                                    title,
-                                    subheading,
-                                    viewOnOliveAndJune,
-                                    Expanded(
-                                      child: descriptionCard,
-                                    ),
-                                    Expanded(
-                                      child: colorCard,
-                                    )
-                                  ],
-                                ))),
-                        const Expanded(flex: 1, child: SizedBox()),
-                      ],
+          : SingleChildScrollView(
+              child: Padding(
+                padding: const EdgeInsets.all(24),
+                child: Column(
+                  children: [
+                    IntrinsicHeight(
+                      child: Row(
+                        crossAxisAlignment: CrossAxisAlignment.stretch,
+                        children: [
+                          const Expanded(flex: 1, child: SizedBox()),
+                          Expanded(
+                              flex: 3,
+                              child: Container(
+                                  alignment: Alignment.topCenter,
+                                  child: imageCarousel)),
+                          Expanded(
+                              flex: 2,
+                              child: Container(
+                                  alignment: Alignment.topCenter,
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
+                                    children: [
+                                      title,
+                                      subheading,
+                                      viewOnOliveAndJune,
+                                      Expanded(
+                                        child: descriptionCard,
+                                      ),
+                                      Expanded(
+                                        child: colorCard,
+                                      )
+                                    ],
+                                  ))),
+                          const Expanded(flex: 1, child: SizedBox()),
+                        ],
+                      ),
                     ),
-                  ),
-                ],
+                    Padding(
+                      padding: const EdgeInsets.all(24),
+                      child: Row(
+                        children: [
+                          const Expanded(flex: 1, child: SizedBox()),
+                          Expanded(
+                            flex: 5,
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                relatedPolishesSubheading,
+                                relatedPolishes,
+                              ],
+                            ),
+                          ),
+                          const Expanded(flex: 1, child: SizedBox()),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
     );
